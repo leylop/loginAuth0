@@ -1,17 +1,17 @@
 ---
 #Legacy translations# ## Translations for utilities ##
 utilities:
-  lang: "es"
-  yes: 'Sí'
+  lang: "en"
+  yes: 'Yes'
   no: 'No'
-  good: 'Bueno'
-  bad: 'Malo'
-  items: 'Insumos de cita'
-  to: 'a'
-  DOB: 'Fecha de nacimiento: '
-  medicalReg: 'Su registro medico es: '
-  formateditsucces: 'El formato se ha guardado'
-  formatediterror: 'Error, intente de nuevo'
+  good: 'Good'
+  bad: 'Bad'
+  items: 'Appointment Items'
+  to: 'to'
+  DOB: 'Date of birth: '
+  medicalReg: 'Your medical register is: '
+  formateditsucces: 'The format has been saved'
+  formatediterror: 'Error, try again'
   msgpresetupdated: 'Preajuste actualizado'
   msgpresetsaved: 'Preajuste guardado'
   msgtype: 'Seleccione y escriba'
