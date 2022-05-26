@@ -1,0 +1,3310 @@
+---
+#Legacy translations# ## Translations for utilities ##
+utilities:
+  lang: "es"
+  yes: 'Sí'
+  no: 'No'
+  good: 'Bueno'
+  bad: 'Malo'
+  items: 'Insumos de cita'
+  to: 'a'
+  DOB: 'Fecha de nacimiento: '
+  medicalReg: 'Su registro medico es: '
+  formateditsucces: 'El formato se ha guardado'
+  formatediterror: 'Error, intente de nuevo'
+  msgpresetupdated: 'Preajuste actualizado'
+  msgpresetsaved: 'Preajuste guardado'
+  msgtype: 'Seleccione y escriba'
+  msgrooms: 'No hay salas seleccionadas'
+  msgpreset: 'Este preajuste ya existe. Será actualizado'
+  mergepatient: 'Agrupar'
+  sendSMSPatient: 'Enviar SMS personalizado'
+  msgformtats: '¿Está seguro de guardar los ajustes?'
+  formatsEdit: 'Editar formatos de fecha y hora'
+  dateFormat: 'Seleccione el formato de fecha'
+  formatmsg: 'Esta fecha se mostrará en el formato disponible'
+  timeformat: 'Seleccione el formato de la hora'
+  description: 'Descripción'
+  enableDisable: 'Habilitar / Deshabilitar características'
+  policy: 'Convenio'
+  assignedDoctor: 'Médico asignado'
+  editProcedure: 'Editar detalles del procedimiento'
+  procedureDetails: 'Detalles del procedimiento'
+  savePreset: 'Guardar preajuste'
+  savePresetQuestion: '¿Quieres guardar el preajuste?'
+  presetName: 'Nombre del preajuste'
+  logout: 'Cerrar sesion'
+  auth: 'Autenticador'
+  addFormats: 'Formatos de fecha'
+  editReportSettings: 'Editar configuración de reportes'
+  accountSettings: 'Configuración de cuenta'
+  toSign: 'Validación'
+  admission: 'Recepción'
+  tecnologist: 'Lista tecnólogo'
+  radiologist: 'Lista radiólogo'
+  selectedAddress: 'Dirección seleccionada'
+  search:
+    button: "Buscar"
+    advanced: "Búsqueda avanzada"
+  save:
+    button: "Guardar"
+  select:
+    button: "Seleccionar"
+  edit:
+    button: "Editar"
+  update:
+    button: "Actualizar"
+  export:
+    button: "Exportar"
+  cancel:
+    button: "Cancelar"
+  date: "Fecha"
+  agreement: "Convenio"
+  headquarter: "Sede"
+  studyName: "Estudio"
+  modality: "Modalidad"
+  priority: "Prioridad"
+  action: "Acción"
+  professional: "Médico 1"
+  listenRecord: "Escuchar grabación"
+  clickhere: "Click aquí"
+  study: "Estudio"
+  priorityReceive: "Atención inmediata"
+  transcription: "Transcriptor"
+  reading: "Lectura"
+  locationData: "Localización"
+  personData: "Información personal"
+  selectAppointment: "Seleccionar cita"
+  notRegistered: "No registrado"
+  numberStudiesReading: "Pendiente de lectura"
+  updating: "Actualizando"
+  saving: "Guardando"
+  workList: "Configurando la lista"
+  business: "Negocio"
+  home: "Inicio"
+  return:
+    toTranscription: "Devolver la transcripción"
+    toAssistive: "Devolver la actualización"
+    toReading: "Devolver la lectura"
+    toActualization: "Devolver por razones de calidad"
+    actual: "Actualización de datos(Asistencial):"
+    toDeliveryPrint: "Imprimir y enviar el reporte"
+  image:
+    webViewer: "Visor Legacy"
+    osiris: "Estación de trabajo Mac"
+    weasis: "Estación de trabajo XEN"
+  directory:
+    register: "Agregar usuario"
+    document: "Documento"
+    name1: "Primer nombre"
+    name2: "Segundo nombre"
+    lastname1: "Primer apellido"
+    lastname2: "Segundo apellido"
+    post: "Cargo"
+    registro: "Número de Registro Médico"
+    phone: "Teléfono"
+    center: "Centro Médico"
+    comentarios: "Comentarios"
+  MedicalOrder:
+    label: "Orden médica e información clínica"
+    label2: "Orden médica "
+  MedicalOrderSave:
+    label: "Orden médica cargada"
+  NewMedicalOrder:
+    label: "Seleccionar un archivo para actualizar la Orden médica existente escaneada"
+  Consent:
+    label: "Consentimiento"
+  ConsentSave:
+    label: "Consentimiento cargado"
+  NewConsent:
+    label: "Seleccionar un archivo para actualizar el consentimiento escaneado existente"
+  EHRtorialPatient:
+    label: "Historia clínica del paciente"
+  HistorialPatient:
+    label: "Historial del Paciente"
+  addendum:
+    label: "Crear un Addendum"
+    buttonSave: "Guardar Addendum"
+    buttonNew: "Volver"
+    grabacion: "Reproducir"
+    saveOk: "Addendum guardado"
+  yml:
+    undef: "Indefinido"
+  welcome: "Bienvenido"
+  recording:
+    empty: "No hay grabaciones disponibles"
+  history:
+    back: 'Regresar a la página precedente'
+    index: 'Regresar al índice'
+  EHRtory:
+    back: 'Volver'
+    index: 'Inicio'
+  error:
+    404: 'Página no encontrada'
+    500: 'Página no encontrada'
+    403: 'Acceso denegado'
+    status: 'El estado del procedimiento ha cambiado.'
+    uploadFile: 'El tamaño del archivo supera el límite permitido.'
+  security:
+    two:
+      info: "Se le seguirán pidiendo códigos cuando usted (u otra persona) intente acceder a su cuenta desde cualquier dispositivo. Con la solicitud recibirá los códigos de verificación desde la aplicación Google Authenticator"
+      title: "Configurar Google Authenticator"
+      steep_1: "Instalar Google Authenticator"
+      steep_2: "En su teléfono móvil, busque Google Authenticator."
+      steep_2a: "Descargue la aplicación"
+      steep_3: "Ahora abra y configure Google Authenticator. En el menú deGoogle Authenticator seleccione: 'Configurar cuenta'."
+      steep_4: "Seleccione 'Escanear un código de barras'."
+      steep_5: "Utilice la cámara de su teléfono móvil para escanear la imagen."
+      info_title: "AUTENTICACIÓN"
+      continue: "CONTINUAR"
+      deactivate: "DESACTIVAR"
+      activate: "ACTIVAR"
+      cancel: "CANCELAR"
+      back: "VOLVER"
+      info_label: "Inicio de sesión con verificación en dos pasos"
+      index_title: "El inicio de sesión será diferente"
+      index_1: "Necesitará códigos de verificación"
+      index_2: "Después de ingresar su contraseña, ingrese el código a través de nuestra aplicación móvil."
+      index_3: "Le solicitaremos los códigos cuando usted (o cualquier otra persona) intente ingresar a su cuenta. "
+      about: "Saber más"
+      confirm_cancel: "¿Quiere deshabilitar la autenticación en 2 pasos?"
+  preview: "Vista previa"
+validate:
+  label: "Validar / Firmar"
+  provenance: "Procedencia"
+  labelPatient: "Pacientes pendientes de validación/firma"
+## Menu Translates
+MenuOld:
+  admin: "Administrador"
+  master: "Configuración de Maestros"
+  register: "Registro"
+  r.sede: "Sede"
+  r.rv: "Administrador RV"
+  voice_r: "Reconocimiento de voz"
+  rv.maintainers: "Mantenedores para datos asociados"
+  rv.maintainers.addULR: "Servidor URL"
+  rv.maintainers.addlicense: "Agregar licencia"
+  rv.maintainers.addpartner: "Agregar Partner"
+  rv.maintainers.themes: "Temas"
+  rv.maintainers.microphones: "Micrófonos"
+  rv.maintainers.languages: "Idiomas"
+  rv.adminUser: "Usuario administrador RV"
+  rv.adminUser.licensed: "Usuario con licencia"
+  rv.maintainers.oficial: "Mantenedores"
+  rv.maintainers.oficial.language: "Idioma del usuario RV"
+  rv.maintainers.oficial.microphones: "Micrófono del usuario RV"
+  rv.maintainers.oficial.themes: "Tema usuario RV"
+  r.convenio: "Perfil de facturación"
+  r.usuario: "Usuario"
+  r.rol: "Roles"
+  r.mod: "Nueva modalidad"
+  r.trans: "Nueva plantilla (transcriptor)"
+  r.deliver: "Nueva plantilla (entrega de reportes)"
+  r.link: "Relación"
+  r.relations: "Agregar sede"
+  r.rooms: "Salas"
+  r.modality: "Modalidad"
+  r.empresa: "Nombre de la empresa"
+  r.bill: "Factura"
+  r.basePrice: "Precio base"
+  r.telephoneState: "Estado del teléfono"
+  r.absenceReasons: "Motivos de inasistencia"
+  r.billRequirement: "Notas de facturación"
+  r.receptionrequirement: "Notas de ingreso del paciente"
+  r.studies: "Estudios"
+  r.indication: "Indicaciones"
+  r.contra_indication: "Contraindicaciones"
+  r.preparation: "Preparaciones"
+  r.study: "Estudios"
+  r.masters: "Insumos de la cita"
+  r.cancellationreason: "Motivos de cancelación"
+  r.provenancedate: "Procedencia de la cita"
+  r.noconfirmationreason: "Motivos de no confirmación"
+  r.solicitudetype: "Tipo de Solicitud"
+  r.priority: "Prioridad"
+  r.diaryblockade: "Motivo Bloqueo de Agenda"
+  r.diary: "Agenda"
+  r.schedulerules: "Reglas de Agenda"
+  delivery: "Entrega de Resultados"
+  workList: "Mi Agenda"
+  modify: " Modificar Datos y Estado"
+  flux: "Flujo Asistencial"
+  reading: "Lectura"
+  actuali: " Actualizaciones"
+  record: " Dictado"
+  transcrip: " Transcribir"
+  validate: " Validar"
+  Addendum: " Addendum"
+  Addendum1: "Agregar Addendum"
+  concordancia: "Concordancia"
+  board: "Tablero"
+  estats: "Estadisticas"
+  indicator: "Indicadores"
+  dir: " Directorio"
+  dir1: "Consultar Directorio"
+  two.user: "Modificar usuario"
+  ultrasoundworklist: "Ecografias"
+  findPatient: "Buscar Paciente"
+  clinicalfile: "Archivo Medico"
+  schedule:
+    label: "Agenda"
+    create: "Crear agenda"
+    appointment: "Asignación de Citas"
+    room: "Bloqueo de citas"
+    confirmTxt: "Datos SMS"
+  room: "Bloqueos por salas"
+  appointmentSchedule: "Agendados"
+  receiveApointment: "Recepción de Citas"
+  priorityReceive: "Atención Inmediata"
+  viewCalendar: "Consultar Agenda"
+  integrationEHR: "Solicitudes EHR"
+  speech: "SpeechAnalytics"
+  indicitas: "Trazabilidad de citas"
+  exportardatos: "Exportar datos crudos"
+  indiplacas: "Indicador de placas"
+  modificar: "Modificar estudio"
+##Appointment Bundle
+assistive:
+  partnership:
+    label: "Asistencial"
+  cancel:
+    label: "Cancelar"
+  title:
+    label: "Todos los pendientes"
+  date:
+    label: "Fecha de la cita"
+  document:
+    label: "Documento"
+  patient:
+    label: "Paciente"
+  headquarters:
+    label: "Sede"
+  all:
+    label: "Todo"
+  procedure:
+    label: "Procedimiento"
+  number_point:
+    label: "Número de disparos"
+  modality:
+    label: "Modalidad"
+  priority:
+    label: "Prioridad"
+  action:
+    label: "Acción"
+  Dateofexamination:
+    label: "Fecha de examen"
+  pathologic:
+    label: "Patológicos:"
+  surgical:
+    label: "Quirúrgicos"
+  cerebralaneurysmoraortic:
+    label: "Aneurismas cerebrales o aórticos"
+  earSurgeries:
+    label: "Cirugías de oídos:"
+  cochlearImplants:
+    label: "Implantes cocleares"
+  pregnancy:
+    label: "Embarazo"
+  treatments:
+    label: "Tratamientos"
+  ocularforeignbodies:
+    label: "Cuerpos extraños oculares"
+  allergy:
+    label: "Alérgicos"
+  neurosurgical:
+    label: "Neuroquirúrgicos"
+  pacemaker:
+    label: "Marcapasos"
+  diagnosisofcancer:
+    label: "Diagnóstico de cáncer"
+  metalworking:
+    label: "Trabajo con metales o soldaduras"
+  claustrophobia:
+    label: "Antecedentes de claustrofobia"
+  reasons:
+    label: "Motivos de Consulta e Historia clínica: Tiempo de evolución"
+  examinationN:
+    label: "Examen neurológico"
+  stateofconsciousness:
+    label: "Estado de conciencia"
+  hearing:
+    label: "Auditivas"
+  swallowing:
+    label: "Deglución"
+  sensibilityF:
+    label: "Sensibildad facial"
+  diplopia:
+    label: "Diplopia"
+  vertigo:
+    label: "Vértigo"
+  phosphenes:
+    label: "Fosfenos"
+  pupillaryr:
+    label: "Respuesta pupilar"
+  hallucinations:
+    label: "Alucinaciones"
+  walk:
+    label: "Marcha"
+  previouse:
+    label: "Exámenes anteriores y fechas"
+  visuald:
+    label: "Alteraciones visuales"
+  touch:
+    label: "Táctiles"
+  toneofvoice:
+    label: "Tono de voz"
+  anosmia:
+    label: "Anosmia"
+  nistagmus:
+    label: "Nistagmus "
+  tinnitus:
+    label: "Tinnitus"
+  vomiting:
+    label: "Vómito"
+  aphasia:
+    label: "Afasias"
+  managements:
+    label: "Manejo de esfínteres"
+  scripture:
+    label: "Escritura"
+  currenttreatmen:
+    label: "Tratamiento actual"
+  save:
+    label: "Guardar"
+  sendreading:
+    label: "Enviar"
+  ScannedbyM:
+    label: "Orden Medica Escaneada"
+  name:
+    label: "Nombre"
+  goodbadges:
+    label: "Placas buenas"
+  quantitye:
+    label: "Cantidad exposiciones"
+  quantitym:
+    label: "Cantidad mAs"
+  badbadges:
+    label: "Placas malas"
+  unnecessarye:
+    label: "N° exposiciones innecesarias"
+  quantityKVA:
+    label: "Cantidad KVA"
+  seeconsent:
+    label: "Ver Consentimiento"
+  addinputs:
+    label: "Agregar Insumos"
+  viewMedicalO:
+    label: "Ver Orden Médica"
+  selectconsent:
+    label: "Seleccionar consentimiento"
+  new:
+    label: "Nuevo"
+  stocktaking:
+    label: "Inventario"
+  typeofdevice:
+    label: "Tipo de dispositivo"
+  inputsname:
+    label: "Nombre insumos"
+  orderquantity:
+    label: "Cantidad según orden"
+  amountused:
+    label: "Cantidad a usar"
+  reasonamountused:
+    label: "Motivo de cantidad usada"
+  balance:
+    label: "Saldo"
+  addtoappointment:
+    label: "Agregar a la cita"
+  delete:
+    label: "Eliminar"
+  weight:
+    label: "Peso"
+  age:
+    label: "Edad"
+  attendingphysician:
+    label: "Médico remitente"
+  studyN:
+    label: "Estudio Nº"
+  Hysterectomy:
+    label: "Histerectomía"
+  menarche:
+    label: "Menarquia"
+  numberofchildren:
+    label: "Cantidad de hijos"
+  E.U.R.:
+    label: "E.U.R."
+  lactation:
+    label: "Lactacia S/N"
+  lactationtime:
+    label: "Tiempo lactacia"
+  mammographystudy:
+    label: "Estudio mamográfico"
+  planning:
+    label: "¿Actualmente esta planificando con hormonas, o está tomando alguna hormona con regularidad?"
+  what:
+    label: "¿Cuál?"
+  familycancer:
+    label: "¿Antecedentes familiares de cáncer de mama?"
+  who:
+    label: "¿Quién?"
+  practicedmammogram:
+    label: "¿Se ha practicado mamografía anteriormente?"
+  recentmammogram:
+    label: "¿Fecha de mamografía más reciente?"
+  surgerybreast:
+    label: "¿Le han practicado cirugía o biopsia de senos?"
+  breastsburningpain:
+    label: "¿Ha sentido alguna molestia en los senos ardor o dolor?"
+  nipples:
+    label: "¿Secreción de pezones?"
+  breastlumps:
+    label: "¿Ha sentido masas en los senos?"
+  side:
+    label: "Lado"
+  howlong:
+    label: "¿Hace cuánto?"
+  changeslately:
+    label: "¿Ha presentado cambios últimamente?"
+  medicalexam:
+    label: "Examen médico"
+  clinicaldata:
+    label: "Datos clínicos"
+  mammographyClinicalData:
+    label: "Encuesta mamografía"
+  template:
+    search: "Filtre las plantillas existentes por:"
+    result: "Plantillas encontradas"
+    tempdataedit: "Editar información de plantilla"
+  DatosPET:
+    label: "Datos PET"
+  CamposPET:
+    label: "Campos para PET"
+Results:
+  search: "Resultado de búsqueda"
+  deliveringResults:
+    label: "Entrega de Resultados"
+  study:
+    label: "Examen"
+  delivered:
+    label: "Entregar a"
+  name1:
+    label: "Nombre de quien recibe"
+  item:
+    label: "Items satisfacción global de 1 a 10 siendo el 10 excelencia"
+  comments:
+    label: "Comentarios"
+  signature:
+    label: "Firma Digital"
+    label1: "Firma capturada"
+  select:
+    label: "Paciente"
+    label1: "Acudiente"
+    label2: "Otro"
+  button:
+    button1: "Entregar"
+    button2: "Limpiar firma"
+    button3: "Tomar foto"
+  Time:
+    label: "Tiempo de entrega"
+  cam:
+    label: "Cámara fotografica"
+  recsing:
+    label: "No se encuentra ninguna firma registrada"
+  errorMsgCompletionFields:
+    label1: "- Se requiere el campo Nombre"
+    label2: " - Elija un item de satisfacción"
+    label3: " - Se deben escribir comentarios"
+    label4: " - Se requiere una firma digital"
+  success:
+    msg: 'Hecho'
+  DATE:
+    label: 'Fecha de entrega'
+WorkslitResult:
+  datetime:
+    label: "Fecha"
+  Headquarter:
+    label: "Sede"
+  status:
+    label: "Estado"
+  study:
+    singular: "Estudio"
+    plural: "Estudios"
+    room: "Sala"
+autovalidated: "Autovalidado"
+Modify:
+  label:
+    label: "Modificar datos del Paciente"
+  date:
+    label: "Seleccionar Fecha"
+  date_beginning:
+    label: "Primera Fecha"
+  date_end:
+    label: "Última Fecha"
+  date2:
+    label: "Primera Fecha"
+  date3:
+    label: "Última Fecha"
+  search:
+    label: "Buscar"
+  clean:
+    label: "Limpiar"
+  date_arrival:
+    label: "Fecha de ingreso"
+  time_arrival:
+    label: "Hora de ingreso"
+  patient:
+    label: "Paciente"
+  ID:
+    label: "Número de Identificación"
+  descrip:
+    label: "Descripción "
+  place:
+    label: "Sede"
+  mod:
+    label: "Modalidad"
+  pre:
+    label: "Procedencia"
+  pri:
+    label: "Prioridad"
+  state:
+    label: "Estado"
+  acc:
+    label: "Acción"
+  close:
+    label: "Cerrar"
+Query:
+  label:
+    label: "Datos del Paciente"
+  date:
+    label: "Seleccionar Fecha"
+  date_beginning:
+    label: "Primera Fecha"
+  date_end:
+    label: "Última Fecha"
+  date2:
+    label: "Primera Fecha"
+  date3:
+    label: "Última Fecha"
+  search:
+    label: "Buscar"
+  clean:
+    label: "Limpiar"
+  date_arrival:
+    label: "Fecha de Llegada"
+  time_arrival:
+    label: "Hora de Llegada"
+  patient:
+    label: "Paciente"
+  typeDocument:
+    label: "Tipo de documento"
+  ID:
+    label: "Documento"
+  descrip:
+    label: "Descripción "
+  place:
+    label: "Sede"
+  mod:
+    label: "Modalidad"
+  pre:
+    label: "Procedencia"
+  state:
+    label: "Estado"
+  acc:
+    label: "Acción"
+  proc:
+    label: "Procedimiento"
+  listen:
+    label: "Escuchar"
+  print:
+    label: "Imprimir"
+  details:
+    label: "Detalles"
+  return:
+    label: "Devuelto por"
+  image:
+    label: "Ver Imágenes"
+  appointment:
+    label: "Fecha de Cita"
+  telephone:
+    label: "Teléfono"
+  appointmentCode:
+    label: "CÓDIGO CITA"
+  age:
+    label: "Edad"
+  ageType:
+    label: "Tipo Edad"
+  hora_cita:
+    label: "Hora de la cita"
+  fecha_cita:
+    label: "Fecha de la cita"
+  fecha_llegada_2:
+    label: "Fecha de llegada"
+Details:
+  label: " Detalles de Entrega"
+  patient:
+    label: "Detalles del Paciente"
+  name:
+    label: "Nombre del Paciente"
+  ID:
+    label: "Documento"
+  study:
+    label: "Procedimiento"
+  handingdata:
+    label: "Detalles de la Entrega"
+  datedata:
+    label: "Fecha"
+  hour:
+    label: "Hora de entrega"
+  receiver:
+    label: "Entregado a"
+  name.rec:
+    label: "Entregado por "
+  item:
+    label: "Nivel de Satisfacción"
+  sign:
+    label: "Firma"
+  modalidad:
+    label: "Modalidad"
+  motivo:
+    label: "Motivo de Query"
+  comentarios:
+    label: "Comentarios de entrega"
+  birth:
+    label: "Fecha de Nacimiento"
+  det: "A continuación se muestra la Fecha/Hora/Usuario de los estados por los que ha pasado la cita del paciente:"
+  act: "ACCIÓN"
+  date: "FECHA"
+  user: "USUARIO"
+  motive: "MOTIVO DEVOLUCIÓN"
+  receipt: "Recepción"
+  actu: "Actualización de datos"
+  actu1: "En dictado devuelto a Actualización de datos:"
+  reading: "Lectura"
+  trans: "Transcripción"
+  vali: "Validación"
+  deliver: "Entregado"
+  title: "Detalles"
+  devolutionMotives: "Motivos de devolución"
+  snap: "Disparos"
+  document: "Documento"
+  kv: "kV"
+  modality: "Modalidad"
+  mas: "mAs"
+  procedure: "Procedimiento"
+  plates: "# Placas"
+  queryMotive: "Motivos de consulta"
+  overexposure: "Sobreexposición"
+  dateBirth: "Fecha de nacimiento"
+  previousStudies: "Estudios previos"
+  year: "Edad"
+  episode: "Episodios"
+  provenance: "Procedencia"
+  biopsy: "Biopsia"
+  tecnologist: "Tecnólogo"
+  responsibleEntity: "Entidad Responsable"
+  detaildata: "A continuación se muestra la Fecha/Hora/Usuario de los estados por los que ha pasado la cita del paciente"
+  action: "ACCIÓN"
+  updateData: "Actualización de datos (asistencial)"
+  transcription: "Transcripción"
+  validation: "Validación"
+  delivered: "Entregado"
+  deliveredTitle: "Total estudios entregados durante "
+  appointmentAssign: "Asignar cita"
+  appointmentSchedule: "Total de citas asignadas durante "
+PlatesRegistry:
+  snaps:
+    label: "Disparos"
+  numberPlates:
+    label: "# Placas"
+  goodPlates:
+    label: "# Placas buenas"
+  badPlates:
+    label: "# Placas malas"
+  sizePlates:
+    label: "Tamaño de placas"
+  OverExposure:
+    label: "Sobreexposición"
+  reasonOverexposure:
+    label: "Motivo sobreexposición"
+  QuantityPreviousStudies:
+    label: "Cantidad de estudios anteriores"
+  KV:
+    label: "KV"
+  MAS:
+    label: "mAs"
+  TFG:
+    label: "TFG"
+  MGY:
+    label: "Dosis mGy"
+  ResultBiopsy:
+    label: "Resultado de la biopsia"
+  motive:
+    label: "Motivos de Consulta"
+  port:
+    label: "Portable"
+  age:
+    label: "Edad"
+  prior:
+    label: "Estudios Anteriores"
+  inop:
+    label: "Inoportunidad"
+  episody:
+    label: "Episodios"
+  agree:
+    label: "Entidad Responsable"
+  creatinine:
+    label: "Creatinina"
+  tech:
+    label: "Tecnólogo"
+  accessionNumber:
+    label: "Número de acceso"
+## ConcordanciaBundle
+concordance:
+  lector:
+    label: "Lector"
+  lectura:
+    label: "Lectura"
+  concordar:
+    label: "Concordar"
+  irradiations:
+    label: "Disparos"
+  ID:
+    label: "Documento"
+  modality:
+    label: "Modalidad"
+  Procedure:
+    label: "Procedimiento"
+  Plates:
+    label: "# Placas"
+  motive:
+    label: "Motivo de Consulta"
+  overxposure:
+    label: "Sobreexposición"
+  datebirth:
+    label: "Fecha de Nacimiento"
+  Portatil:
+    label: "Portable"
+  Edad:
+    label: "Edad"
+  prev: "Estudios Previos"
+  proc: "procedencia"
+  inop: "Inoportunidad"
+  episody: "Episodios"
+  biopsy: "Biopsia"
+  entity: "Entidad Responsable"
+  creat: "Creatinina"
+  tech: "Tecnólogo"
+  QA: "Calidad de la imagen"
+  QAcontrast: "Calidad contraste"
+  img: "Suficientes imágenes o secuencias"
+  def: "Deficiencia por movimiento del paciente"
+  faliure: "Fallas del Tecnólogo"
+  send: "Enviar"
+  timeValues:
+    minute: 'minuto(s)'
+    hour: 'hora(s)'
+  crashForOtherUser:
+    label_p1: '¡CUIDADO, otro usuario:'
+    label_p2: 'tuvo una "salida abrupta" sobre este página'
+    label_p3: 'antes!'
+  crashForCurrentUser:
+    label_p1: 'CUIDADO, usted tuvo una "salida abrupta"'
+    label_p2: '¡Si actualiza la página, puede esperar hasta 10 minutos antes de que pueda editar de nuevo!'
+grid:
+  option:
+    select_all: 'Todo'
+    option: 'Opción'
+##Indicator Bundle
+Dashboard:
+  dashboard: "Tablero"
+  UpdatePending:
+    label: "Pendiente Asistencial"
+  ReadingPending:
+    label: "Pendiente Lectura"
+  TranscriptionPending:
+    label: "Pendiente transcripción"
+  ValidationPending:
+    label: "Pendiente Validación"
+  Days: "días"
+  Hours: "horas"
+  search_date: "Búsqueda por rango de fechas: "
+  search_indication: "( Se hace referencia a la fecha de la cita, para este indicador el estudio debe estar en estado VALIDADO o ENTREGADO )"
+  search_indication2: "( Se hace referencia a la fecha de la cita, para este indicador el estudio debe estar en estado ENTREGADO )"
+  search_indication3: "( Se hace referencia a la fecha de la cita )"
+  search_indication4: "( Se hace referencia a la fecha de la cita, para este indicador el estudio debe de estar en estado CANCELADO )"
+  sms_type: "Tipo de Notificación"
+  sms_type2: "Tipo de Notificación SMS"
+  date_one: "Ingrese fecha inicial:"
+  date_two: "Ingrese fecha final:"
+  button:
+    search: "Buscar"
+    clean: "Limpiar"
+  time_read: "Tiempo sin ser leído en horas."
+  time_dashboard: "Estudios en espera"
+  colours:
+    green: "0 a 5."
+    blue: "5:01 a 10."
+    orange: "10:01 a 15."
+    violet: "15:01 a 24."
+    red: "24:01 o Mayor."
+##Patient Bundle
+patient:
+  label: "Paciente"
+  search:
+    label: "Buscar Paciente"
+  DrReferring:
+    label: "Médico remitente"
+  date1:
+    label: "Fecha"
+  schedule:
+    label: "Agendar Pacientes"
+  documentNumber:
+    label: "Número de documento"
+  documentType:
+    label: "Tipo de Documento"
+  firstName:
+    label: "Primer nombre"
+  secondName:
+    label: "Segundo nombre"
+  firstLastName:
+    label: "Primer apellido"
+  secondLastName:
+    label: "Segundo apellido"
+  birthDate:
+    label: "Fecha de Nacimiento"
+  MedicalCenter:
+    label: "Centro Médico"
+  Post:
+    label: "Cargo"
+  Register:
+    label: "Registar Usuario"
+  yearAge:
+    label: "Edad en Años"
+  monthAge:
+    label: "o Edad en Meses"
+  address:
+    label: "Dirección"
+  bloodType:
+    label: "Tipo de Sangre"
+  telephone:
+    label: "Teléfono"
+  cellphone:
+    label: "Celular"
+  sex:
+    label: "Sexo"
+    male: "Hombre"
+    female: "Mujer"
+  residentialZone:
+    label: "Zona Residencial"
+    urban: "Urbana"
+    rural: "Rural"
+  department:
+    label: "Departamento"
+  municipality:
+    label: "Municipio"
+  email:
+    label: "Correo Electrónico"
+  comments:
+    label: "Comentarios"
+  contact:
+    name: "Nombre de Contacto"
+    tel: "Teléfono de Contacto"
+  namePatient:
+    label: "Nombre del paciente"
+  modify:
+    label: "Editar los datos personales y el estado"
+  Headquarter:
+    label: "Sede"
+  modality:
+    label: "Modalidad"
+  state:
+    label: "Estado Actual"
+  ID:
+    label: "Documento"
+  first:
+    label: "Primer nombre"
+  midle:
+    label: "Segundo nombre"
+  last:
+    label: "Primer apellido"
+  last2:
+    label: "Segundo apellido"
+  proc:
+    label: "Procedimiento"
+  desc:
+    label: "Descripción"
+  BD:
+    label: "Fecha de nacimiento"
+  age:
+    label: "Edad"
+  prec:
+    label: "Procedencia"
+  prio:
+    label: "Prioridad"
+  proce:
+    label: "Procedencia"
+  number_procedure:
+    label: "Número de procedimientos"
+  age2:
+    label: "Edad en años"
+  edadEn:
+    label: "Edad en"
+  emergency:
+    label: "Urgencias"
+  hosp:
+    label: "Hospitalización"
+  ambulatory:
+    label: "Ambulatorio"
+  ICU:
+    label: "UCI"
+  newborn:
+    label: "Recién nacido"
+  responsible:
+    label: "Entidad responsable"
+  body:
+    label: "Parte del cuerpo"
+  body1:
+    label: "cuerpo"
+  neuro:
+    label: "neuro"
+  mamo:
+    label: "mamo"
+  number_point:
+    label: "Número de disparos"
+  episode:
+    label: "Número de episodios"
+  nochange:
+    label: "No cambiar estados"
+    label1: "No se permite cambiar de estado"
+  clinical:
+    label: "Datos clínicos"
+  info:
+    label: "Información clínica"
+  return:
+    label: "Causas de Devolución"
+  order:
+    label: "Orden médica y datos clínicos"
+  story:
+    label: "Historia Clínica"
+  send:
+    label: 'Enviar'
+  new:
+    label: "Nuevo"
+  tech:
+    label: "Tecnólogo"
+  radiologist:
+    label: "Radiólogo"
+  cancel:
+    label: "Cancelar"
+  save:
+    label: "Guardar"
+  saveData:
+    label: "Guardar/Enviar"
+  cancela:
+    label: "CANCELADA"
+  pconfir:
+    label: "PENDIENTE DE CONFIRMACIÓN"
+  pasisten:
+    label: "PENDIENTE DE ASISTENCIAL"
+  plect:
+    label: "PENDIENTE DE LECTURA"
+  ptrans:
+    label: "PENDIENTE DE TRANSCRIPCIÓN"
+  pvali:
+    label: "PENDIENTE DE VALIDACIÓN"
+  vali:
+    label: "VALIDADO"
+  entre:
+    label: "ENTREGADO"
+  orden:
+    label: "ORDEN DE FACTURACIÓN"
+  reg:
+    label: "REGISTRADO"
+  cancelin:
+    label: "CANCELADA POR INASISTENCIA"
+  in_reg:
+    label: "EN ASISTENCIAL"
+  in_read:
+    label: "EN LECTURA"
+  in_trans:
+    label: "EN TRANSCRIPCIÓN"
+  in_val:
+    label: "EN VALIDACIÓN"
+  in_entre:
+    label: "EN ENTREGA"
+  cancelled:
+    label: "CANCELADO"
+  update:
+    label: "ACTUALIZAR REGISTRO"
+  optionalFieldInfo:
+    label: 'Indica un campo opcional'
+  requiredFieldInfo:
+    label: 'Obligatorio'
+  editionStatus:
+    label: 'Ya en edición'
+  error:
+    msg: 'Por favor verificar campos obligatorios'
+  #agregado por jorge
+  erro:
+    msg: 'Falta diligenciar campos obligatorios (*)'
+  success:
+    msg: 'Los cambios se guardaron con éxito'
+  numImgInStudy:
+    label: 'Número de imágenes en este estudio'
+  accesion_number:
+    label: 'Número de acceso:'
+  updateData:
+    numberImages: 'Número de series en este estudio: '
+    associated: 'Este estudio se encuentra asociado correctamente con imágenes.'
+  data: "Información"
+  mammography: "Mamografía"
+  folio.label: "Folio"
+  consecutive.label: "Consecutivo"
+  devolution:
+    label: "Devoluciones"
+  selectAppointmentError: "Cita(s) no seleccionadas correctamente."
+  selectAppointmentSuccess: "Cita(s) seleccionadas correctamente."
+##Reading Bundle
+reading:
+  label: "Lectura"
+  labelPatient: "Todo"
+  labelPerform: "Lectura"
+  toDelivery: "Enviar"
+  labelRead: "Lectura"
+  patientData: "Información del paciente"
+  labelImage: "Imágenes"
+  labelActions: "Acciones"
+  labelDictate: "Dictado"
+  labeltranscribe: "Transcribir"
+  labelBirads: "BIRADS"
+  inputBirads: "BIRADS"
+  msjError: "Por favor selecciones un BIRADS válido"
+  valueBirads: 'Valor BIRADS'
+  imagesNotExist: 'Sin imágenes'
+  number: "Número"
+  user: "Usuario"
+  process: "Proceso"
+  reasons_return: "Detalles de devolución"
+  returns: "Devoluciones"
+  current: "Fecha"
+  updateImages: "Actualizar imágenes"
+  updatedSuccessfully: "Actualizado con éxito"
+  noPictures: "No se encontraron imágenes"
+  alreadyUpdated: "Ya se ha actualizado"
+  commentTechnologist: "Comentarios del tecnólogo"
+  commentRadiologist: "Comentarios del radiólogo"
+  commentTranscription: "Comentarios del transcriptor"
+  commentValidate: "Comentarios de validación."
+  commentAdd: "Agregar comentarios"
+  cancelComments: "Comentarios de cancelación"
+validateTranscription:
+  label: "Validar / Firmar la transcripción"
+  labelPatient: "Validar / Firmar reporte"
+presavebutton:
+  button: "Pre-Guardar"
+read: "Lectura 1"
+Devolution:
+  title:
+    label: "Por favor, seleccione uno"
+  patient:
+    label: "Movimiento del paciente"
+  Technologist:
+    label: "Error humano (tecnólogo)"
+  hardware:
+    label: "Falla técnica del equipo"
+  doctor:
+    label: "Error humano (MD)"
+  others:
+    label: "Otros"
+  save:
+    label: "Siguiente"
+  cancel:
+    label: "Cancelar"
+Viewer:
+  title:
+    label: "Por favor, seleccione uno"
+  oviyam:
+    label: "Visor Web Legacy"
+  weasis:
+    label: "Estación de trabajo Windows"
+  osirix:
+    label: "Estación de trabajo Mac"
+  alma:
+    label: "Visor Aquila"
+transcription:
+  legend: "Transcribir"
+  date: "Fecha"
+  document: "Documento"
+  patient: "Paciente"
+  headquarter: "Sede"
+  procedure: "Procedimiento"
+  modality: "Modalidad"
+  professional: "Médico 2"
+  pre: "Solicitante"
+  pri: "Prioridad"
+  action: "Acción"
+  read: 'Ver'
+  radiologist: "Radiólogo"
+  label: "Transcriptor"
+  preSave: "Guardar"
+  send: "Enviar"
+transcriber:
+  legend: "Trancriptor"
+  trreport: "Lectura del transcriptor:"
+  label1: "Nombre"
+  label2: "Documento"
+  label3: "Radiólogo"
+  label4: "Modalidad"
+  label5: "Orden No."
+  label6: "Reproducir"
+  label7: "Procedimiento"
+  label8: "Plantilla"
+  label9: "Lectura Ad Hoc"
+  label10: "Edad"
+  label11: "KVA"
+  label12: "MAS"
+  label13: "Placas"
+  label14: "Sobreexposición"
+  label15: "Portátil"
+  label16: "Estudios"
+  label17: "Inoportunidad"
+  label18: "Biopsia"
+  label19: "Placas Buenas"
+  label20: "Placas Malas"
+  label21: "Disparos"
+  label22: "No tiene lecturas adicionales"
+  label23: "MGY"
+  button3: "Cargar plantilla"
+  button2: "Pre-Guardar Transcripción"
+  button1: "Añadir Lectura"
+  buttonvalidate: "Enviar a Validación"
+  addReading: "Lectura adicional"
+  msjconfirm: "Datos guardados correctamente"
+  msjerror: "Datos erróneos"
+  msjremoveconfirm: "Datos guardados correctamente"
+  msjremoveerror: "Datos erróneos"
+  presave: "Pre-guardar"
+  devolution: "Devolver a lectura"
+  msjValidate: "Atención: Se está enviando a validación, por favor espere"
+  msjErrorValidate: "Atención: Por favor ingrese un texto válido"
+  msjValidateRead: "Atención: La transcripción se pre-guardó con éxito. Puede añadir otra lectura"
+  msjErrorValidateRead: "Atención: Por favor ingrese un texto válido"
+  devolutionTitle: "Devolución a lectura"
+  devolutionMotive: "Motivos de devolución"
+  devolutionError: "Atención: Ingresar motivos de devolución"
+  cancel: "Cancelar"
+  saveReturn: "Guardar y devolver"
+addreading:
+  errormsg: '¡Todos los campos son obligatorios!'
+missingTrans:
+  errorMsg: '¡Se requiere una transcripción!'
+validationProcessSuccessful:
+  msg: '¡El proceso de validación se realizó satisfactoriamente!'
+textDictMissing:
+  msg: 'Por favor ingrese un texto válido'
+sendToResultSuccess:
+  msg: 'Atención: Firmar y encriptar'
+updateDataBirads:
+  msg: 'Atención: Datos actualizados de BIRADS'
+successRecordingTrans:
+  msg: 'Atención: La transcripción se pre-guardó con éxito'
+RecordingResponseError:
+  msg: '¡Atención: Usted debe grabar un mensaje de voz antes de enviar!'
+updateDataRecording:
+  msg: 'Atención: Mensaje de voz grabado correctamente'
+BiradsDataRecordingError:
+  msg: 'Atención: Falta actualizar dato BIRADS'
+previous_s:
+  label: 'Estudios Previos'
+  none: 'No existen estudios previos'
+  date: 'Fecha Cita'
+  mod: 'Modalidad'
+  name: 'Nombre Estudio'
+  report: 'Reporte'
+  recording: 'Grabación'
+  watch: 'Ver'
+buttons:
+  load: "Cargar Plantilla"
+  clean: "Limpiar"
+  save: "Guardar Transcripción"
+  close: "Cerrar"
+  remove: "Eliminar transcripción"
+##Receive Bundle
+receive:
+  receive_title: "Recepción de citas"
+  receive_name: "Recepción"
+  start_again: "Empezar de nuevo"
+  add_appointment: "Agregar atención inmediata"
+  filter_agreement: "Filtro convenio"
+  entity_agreement: "Entidad convenio"
+  without_id: "Sin documento"
+  patient: "paciente"
+  id_type: "tipo de documento"
+  document: "Documento"
+  select: "Seleccionar"
+  not_available: "No disponible"
+  son_of: "Hijo de"
+  select_multi: "Seleccione varios espacios"
+  set_appointment: "Asignar Cita"
+  first_name: "Primer nombre"
+  second_name: "Segundo nombre"
+  first_last_name: "Primer apellido"
+  second_last_name: "Segundo apellido"
+  phone: "Teléfono"
+  cellphone: "Celular"
+  birthday: "Fecha de nacimiento"
+  age_typing: "Edad"
+  old_type: "Tipo de edad"
+  GS_RH: "GS/RH"
+  gender: "Sexo"
+  men: "Hombre"
+  women: "Mujer"
+  residential_zone: "Zona residencial"
+  urban: "Urbana"
+  rural: "Rural"
+  departament_name: "Departamento"
+  modality: "Modalidad"
+  study: "Estudios"
+  years: "Años"
+  months: "Meses"
+  year: "Año"
+  month: "Mes"
+  day: "Día"
+  days: "Días"
+  municipality: "Municipios"
+  address: "Dirección"
+  email: "Correo"
+  tutor: "Acudiente"
+  new: "Nuevo"
+  save: "Enviar a flujo de imágenes"
+  guardian: "Acudiente"
+  mandatory_email: "Correo electrónico requerido"
+  saveOk: "Recepción guardada correctamente"
+  ok: "ACEPTAR"
+  cancel: "CANCELAR"
+  modify: "Modificar"
+  confirmation: "Confirmar"
+  msj_confirmation: "Confirma el envío de los datos"
+  room: "Sala"
+  rooms: "Salas"
+  agreement: "Convenio"
+  doctor_referring: "Médico remitente"
+  document_doctor_referring: "Documento médico remitente"
+  clinicalData: "Trae información clínica"
+  yes: "Sí"
+  no: "No"
+  description: "<p>Este indicador muestra los estudios realizados por convenio, agrupados por modalidad.<br>Haga click en el nombre del convenio para obtener información detallada de los estudios. "
+  update_select_patient: "Seleccionar / Actualizar Paciente"
+  no_select_patient: "NO SE HA SELECCIONADO EL PACIENTE CORRECTAMENTE"
+  yes_select_patient: "SE HA SELECCIONADO EL PACIENTE CORRECTAMENTE"
+  no_select_studies: "NO SELECCIONÓ ESTUDIOS"
+  yes_select_studies: "SI SELECCIONÓ ESTUDIOS"
+  select_studies: "Seleccionar Estudios"
+  sin_lectura: "Sin lectura"
+## TRANSCRIPTION BUNDLE
+template:
+  legend: "Plantilla de transcripción"
+  createTemplate: "Crear plantilla"
+  templatesSearch: "Buscar Plantillas"
+  templatesCreate: "Crear Plantillas"
+  label1: "Estudio:"
+  label2: "Radiólogo"
+  label3: "Nombre de la plantilla:"
+  label4: "Contenido Plantilla:"
+  new: "Nuevo"
+  save: "Guardar"
+  presave: "Pre-guardar"
+  savenew: "Guardar y crear nueva"
+  delete: "Eliminar"
+  update: "Actualizar"
+  search: "Buscar"
+  load: "Cargar"
+  edit: "Editar"
+  cancel: "Cancelar"
+  modality_message: "* El código N/A hace referencia a una plantilla sin modalidad asignada"
+headquarter:
+  legend: "Relacionar Sede y Flujo:"
+  h3: "Relacionar Sede"
+  labelregister: "Para registrar las resoluciones de facturación primero debe crear la sede, luego de creada se busca la sede y le aparecerá un botón llamado resolución de facturación al lado del campo de matrícula mercantil el cual al darle clic abrirá una ventana emergente que le permitira actualizar la resolucion de facturación."
+  labelselect: "Seleccionar Todos"
+  button4: "Relacionar"
+  headquarter: "Sede"
+  flow: "Flujo actual"
+  cambioflux: "Cambiar flujo"
+  start: "Empezar en el inicio del flujo"
+  radiologyf: "Empezar en el flujo del radiólogo"
+  dont_site: "No hay sedes asociadas a este usuario"
+headquartercrud:
+  legend: "Registrar Sede:"
+  h3: "Registrar Sede"
+  headquarter: "Sede:"
+  name: "Nombre"
+  entity: "Empresa:"
+  address: "Dirección:"
+  phone: "Teléfono:"
+  contact: "Contacto:"
+  typeid: "Tipo de documento:"
+  noid: "Número de documento:"
+  email: "Correo electrónico:"
+  department: "Departamento:"
+  municipality: "Municipio:"
+  codratings: "Código de habilitación:"
+  effectivecod: "Vigencia de código de habilitación:"
+  matmer: "Matrícula mercantil:"
+  button: "Nuevo"
+  button1: "Buscar"
+  button2: "Guardar"
+  button3: "Actualizar"
+  button5: "Eliminar"
+  user: "Usuario"
+changeHeadquarter:
+  headquarterChange: "Cambiar sede"
+  headquarter: "Sede"
+  selected: "Seleccionar"
+Indicator:
+  no_results: "No hay resultados"
+  study_total: "Total Estudios"
+  total_process: "Total procedimientos"
+  entity: "Convenio"
+  date: "Fecha"
+  study_cancel: "Total Estudios Cancelados"
+Indicator_technologist:
+  name: "Indicador Tecnólogo"
+  menu: "Indicador Tecnólogo"
+  user: "Usuario"
+  modality: "modalidad"
+  total_study: "Estudios por profesional"
+  date_init: "Fecha inicial"
+  date_end: "Fecha final"
+  send: "Enviar"
+  hours_worked: "Horas trabajadas"
+  date_of_receipt: "Fecha inicio tecnólogo"
+  patient: "Paciente"
+  study: "Estudio"
+  document: "Documento"
+  date_transcriptor_sent: "Fecha envío Tecnólogo"
+  number_process: "Número de procedimientos"
+  description: "<p>Este indicador muestra los estudios realizados y las horas trabajadas por el Tecnólogo, agrupados por modalidad.<br>Haga click en el nombre del Tecnólogo para obtener información detallada de los estudios."
+Indicator_transcription:
+  indicator_transcription: "Indicador Transcripción"
+  date_init: "Fecha inicial"
+  date_end: "Fecha final"
+  send: "Enviar"
+  total_study: "Estudios por profesional"
+  hours_worked: "Horas trabajadas"
+  date_of_receipt: "Fecha de ingreso transcriptor"
+  user: "Usuario"
+  patient: "Paciente"
+  study: "Estudio"
+  document: "Documento"
+  date_transcriptor_sent: "Fecha envío transcriptor"
+  description: "<p>Este indicador muestra los estudios realizados y las horas trabajadas por el transcriptor, agrupados por modalidad.<br>Haga click en el nombre del transcriptor para obtener información detallada de los estudios. "
+indicador_geolocalizacion:
+  menu: "Indicador Geolocalización"
+Indicador_oportunidad:
+  menu: "Indicadores Oportunidad"
+Indicator_modalidad_convenios:
+  name: "Indicador de Modalidad y Convenios: "
+  menu: "Indicador de Modalidad y Convenios"
+Indicator_birads:
+  name: "Indicador BIRADS"
+Indicator_estudios_radiologo:
+  name: "Indicador Radiólogos: "
+  menu: "Indicador Radiólogos"
+Indicator_modality_provenances:
+  menu: "Indicador Modalidad por Procedencias "
+  user: "Usuario"
+  modality: "Modalidad"
+  total_study: "Estudios por procedencia"
+  date_init: "Fecha inicial"
+  date_end: "Fecha final"
+  send: "Enviar"
+  percentage: "Porcentajes"
+  appointment: "Fecha de cita"
+  patient: "Paciente"
+  study: "Estudio"
+  document: "Documento"
+  date_transcriptor_sent: "Fecha envío tecnólogo"
+  number_process: "Número de procedimientos"
+  provenance: "Procedencia"
+  description: "<p>Este indicador muestra los estudios realizados por procedencia y el porcentaje que representan con respecto al total de estudios, agrupados por modalidad.<br>Haga click en el nombre de la procedencia para obtener información detallada de los estudios. "
+indicator_birads:
+  menu: "Indicador BIRADS"
+  date: "Fecha de la Cita"
+  patient: "Paciente"
+  document: "Documento del paciente"
+  study: "Estudio"
+  eps: "EPS"
+  birads: "BIRADS"
+  no_results: "No se encontraron resultados"
+  description: "<p>Este indicador muestra las calificaciones BIRADS para cada estudio realizado."
+indicator_sms_notifications:
+  menu: "Indicador Notificaciones"
+  name: "Indicador Notificaciones"
+  current: "Fecha y hora de la Notificación"
+  no_results: "No se encontraron resultados"
+  sent_notification: "Notificación enviada"
+indicator_cancel:
+  menu: "Indicador de CANCELACIÓN"
+  table: "Tabla de cancelación. Para ver Detalle del paciente dar click sobre la Modalidad"
+  cancel1: "No existen estudios en estado cancelado"
+  modality: "Modalidad"
+  document: "Documento"
+  patient: "Paciente"
+  study: "Estudio"
+  date: "Fecha/Hora de cancelación"
+  eps: "EPS"
+  state: "Estado"
+  coment: "Comentario"
+  total: "Total Cancelación Modalidad"
+  stado: "Estado"
+  consolidated: "Consolidado"
+  export: "Exportar"
+indicator_perfil:
+  name: "Indicador por perfil"
+  asignaCita: "Indicador asignación de citas"
+  recepcion: "Indicador recepción de citas"
+  titleReceipt: "Recepciones por usuario"
+  totalR: "Total de recepciones "
+indicador_lecturas:
+  menu: "Indicadores de Lectura"
+  name: "Pendiente de reporte"
+  totalP: "Total estudios pendientes de lectura"
+  totalLecturas: "Total reportes"
+  totalLecturasVal: "Total reportes validados"
+  detalle: "Información detallada "
+  usuarioMod: "Lecturas Radiólogo y modalidad"
+  lecturaVsValidacion: "Lecturas vs Validaciones por usuario"
+  vrVsgrabadora: "Reconocimiento de voz VS grabadora"
+Reading_indicator:
+  reading_indicator: "Indicador Tiempo de Proceso Lectura"
+  date_init: "Fecha inicial"
+  date_end: "Fecha final"
+  send: "Enviar"
+  total_study: "Estudios por profesional"
+  hours_worked: "Horas trabajadas"
+  date_of_receipt: "Fecha de inicio lectura"
+  user: "Usuario"
+  patient: "Paciente"
+  study: "Estudio"
+  document: "Documento"
+  date_radiologist_sent: "Fecha envío radiólogo"
+  number_process: "Número de procedimientos"
+  description: "<p>Este indicador muestra los estudios realizados y las horas trabajadas por el radiólogo, agrupados por modalidad.<br>Haga click en el nombre del radiólogo para obtener información detallada de los estudios."
+Indicator_delivery_result:
+  name: "Indicador Entrega de Resultados: "
+  menu: "Indicador Entrega de Resultados"
+  date_of_receipt: "Fecha de Ingreso a Entrega de Resultados"
+  date_delivery_sent: "Fecha de Entrega de Resultados"
+  description: "<p>Este indicador muestra los resultados entregados y las horas trabajadas por el usuario, agrupados por modalidad.<br>Haga click en el nombre de usuario para obtener información detallada de los estudios."
+indicator_devolution:
+  name: "Devoluciones: "
+  menu: "Devoluciones"
+  process: "Proceso"
+  Reading: "Lectura"
+  Transcription: "Transcribir"
+  Validation: "Validación / Firma"
+  total: "Devoluciones totales"
+  no_results: "No se encontraron resultados"
+  description: "Descripción"
+  process_modality: "Modalidad / Proceso"
+  patient: "Paciente"
+  details: "Detalles"
+  Modality: "Modalidad: "
+  repaymentdate: "Datos de las devoluciones "
+  previoususer: "Usuario previo "
+  userrepayment: "Devuelto por"
+  consolidated: "Consolidado"
+  resu: "La información está relacionada con el número de devoluciones basadas en la fecha/hora de la cita."
+  motive: "Motivo de la devolución"
+  cancel: "Cancelación"
+indicador_atencion:
+  menu: "Indicador Oportunidad de Atención"
+Indicator_oportunity_process:
+  menu: "Indicador Oportunidad por Procesos "
+  user: "Usuario"
+  flow_steps: "Pasos del procedimiento"
+  time_range: "Rango de tiempo"
+  total: "Total"
+  all: "Todo"
+  modality: "modalidad"
+  total_study: "Estudios"
+  date_init: "Fecha inicial"
+  date_end: "Fecha final"
+  send: "Enviar"
+  percentage: "Porcentajes"
+  appointment: "Fecha de cita"
+  patient: "Paciente"
+  study: "Estudio"
+  document: "Documento"
+  date_transcriptor_sent: "Fecha envío tecnólogo"
+  number_process: "Número de procedimientos"
+  assing_rec: "Asignación Cita a Recepción"
+  rec_assist: "Recepción a asistencial"
+  asist_read: "Asistencial a lectura"
+  read_trans: "Lectura a transcripción"
+  trans_val: "Transcripción a validación"
+  val_deliv: "Validación a entrega de resultados"
+  study_status: "Estado del estudio"
+  commited: "Entregado o Validado"
+  description: "<p>Este indicador muestra el total de estudios realizados en determinado rango de tiempo para cada etapa del flujo de trabajo.</p>"
+Indicator_studies_radiologist:
+  description: "<p>Este indicador muestra las fechas y la EPS relacionados a los estudios realizados detallados por Radiólogo</p>"
+Indicator_studies_agreement:
+  name: "Indicador de Estudios y Covenios : "
+  menu: "Indicador de Estudios y Covenios  "
+  agreement: "Convenio"
+  patient: "Paciente"
+  modality: "Modalidad"
+  study: "Estudios"
+  total: "Total Estudios"
+  document: "Documento"
+  date_receipt: "Fecha de Recepción"
+  description: "Este indicador muestra el total de estudios realizados para el convenio y la modalidad seleccionados, agrupados por modalidad."
+  description2: "Este indicador muestra el detalle de cada estudio realizado para el convenio y modalidad seleccionados."
+reporte_4505:
+  tipoRegistro: TIPO DE REGISTRO
+  consecutivoRegistro: CONSECUTIVO DE REGISTRO
+  codigoIps: CÓDIGO DE HABILITACIÓN IPS PRIMARIA
+  tipoId: TIPO DE DOCUMENTO DEL USUARIO
+  numeroId: NÚMERO DE DOCUMENTO DEL USUARIO
+  primerApellido: PRIMER APELLIDO DEL USUARIO
+  segundoApellido: SEGUNDO APELLIDO DEL USUARIO
+  primerNombre: PRIMER NOMBRE DEL USUARIO
+  segundoNombre: SEGUNDO NOMBRE DEL USUARIO
+  fechaNacmiento: FECHA DE NACIMIENTO
+  generoUsuario: SEXO
+  fechaMamografia: FECHA MAMOGRAFÍA
+  resultadoMamografia: RESULTADO MAMOGRAFÍA
+voice_recognition:
+  message_error: "Este usuario tiene reconocimiento de voz defectuoso - Consulte a su administrador"
+ultrasound_data:
+  user_data: "Nombre usuario"
+  password_user: "Contraseña"
+  select_user_radiologist: "Seleccione un usuario radiÓlogo"
+  select_radiologist: "Seleccionar"
+  check: "Verificar y enviar a entrega de resultados"
+  all: "Todos"
+  radiologist: "Radiólogo"
+  msj_error: "Error: Contraseña Incorrecta "
+  msj_confirm: "Bien: Datos verificados correctamente "
+  transcription_button: "Pre-Gruardar Transcripción"
+  validation_button: "Enviar a validación"
+  userValidate: "Por favor seleccione un usuario válido"
+list.label_eps_nit: "NIT EPS"
+list.label_entity_nit: "NIT de la empresa"
+list.label_entity_name: "Nombre"
+list.label_id_modality: "Modalidad"
+list.label_has_images: "Grabación"
+list.label_id: "Consecutivo"
+filter.label_eps_nit: "NIT EPS"
+filter.label_entity_nit: "NIT de la empresa"
+filter.label_entity_name: "Nombre"
+filter.label_id_modality: "Modalidad"
+filter.label_has_images: "Grabación"
+filter.label_id: "Consecutivo"
+form.label_eps_nit: "NIT EPS"
+form.label_entity_nit: "NIT de la empresa"
+form.label_entity_name: "Nombre"
+form.label_id_modality: "Modalidad"
+form.label_has_images: "Grabación"
+form.label_id: "Consecutivo"
+show.label_eps_nit: "NIT EPS"
+show.label_entity_nit: "NIT de la empresa"
+show.label_entity_name: "Nombre"
+show.label_id_modality: "Modalidad"
+show.label_has_images: "Grabación"
+show.label_id: "Consecutivo"
+breadcrumb.link_eps_list: "Listado EPS"
+breadcrumb.link_eps_create: "Crear EPS"
+breadcrumb.link_eps_edit: "Editar EPS"
+breadcrumb.link_eps_delete: "Eliminar EPS"
+breadcrumb.link_modality_list: "Listado de Modalidades"
+breadcrumb.link_modality_create: "Crear Modalidad"
+breadcrumb.link_modality_edit: "Editar Modalidad"
+breadcrumb.link_modality_delete: "Eliminar Modalidad"
+breadcrumb.link_entity_list: "Listado de Empresas"
+breadcrumb.link_entity_create: "Crear Empresa"
+breadcrumb.link_entity_edit: "Editar Empresa"
+breadcrumb.link_entity_delete: "Eliminar Empresa"
+form_eps: "EPS"
+form_entity: "Empresa"
+form_modality: "Modalidad"
+form_entities: "Empresas"
+form_modalities: "Modalidades"
+eps: "EPS"
+entity: "Empresa"
+modality: "Modalidad"
+entities: "Empresas"
+##modalities: "Modalidad"
+mail:
+  hi: "Hola, %name%"
+  wellcome: "Bienvenido a la plataforma %app%. Ha sido creado con el usuario: %username% "
+  data: "Por favor dirigirse al link que encontrará abajo, se le ha asignado la contraseña: %password%."
+  url: "Para ingresar a la plataforma por favor dirigirse al siguiente link. "
+  click: "IR"
+  contact: "Datos de contacto"
+  phone: "Teléfono: %phone%"
+  email: "Correo electrónico: "
+statusDate:
+  seconds: "Segundos"
+  minutes: "Minutos"
+  hours: "Horas"
+  days: "Días"
+  years: "Años"
+  month: "Meses"
+printReport:
+  copiedTo: "Copiado a"
+  title: "Test Hospital"
+  date: "Fecha del estudio"
+  name: "Paciente"
+  age: "Edad"
+  entity: "Entidad"
+  procedure: "Procedimiento"
+  document: "Documento"
+  typeDocument: "Tipo de documento"
+  accesionNumber: "Orden"
+  greeting: "Atentamente:"
+  msjSignature: "Firmado electrónicamente por"
+  radiologist: "RADIÓLOGO"
+  numberRegister: "Registro"
+  dateSignature: "Fecha del reporte"
+  adendumGenerate: "Fecha del Addendum"
+  doneBy: "Firmado por"
+  footerEntity: "IMAGING EXPERTS AND HEALTHCARE SERVICES"
+  adressEntity: "Bogotá D.C Calle 93 # 16-46 tel : 7020497" #16-46 tel : 7020497"
+  codeCups: "CUPS"
+  userValidate: "Firmado electrónicamente por"
+  userValidate2: "Firmado electrónicamente por"
+  userValidate3: "Firmado por"
+  user_modality_OT: "Densitometria clínica (Certificado ISCD)"
+  aditionalReading: "Reportado por"
+  doctorReferring: "Médico remitente"
+  location: "Ubicación"
+  dateStudy: "Fecha del estudio"
+  remite: "Médico remitente"
+  headquarter: "Sede"
+  medicalRecord: "Historial médico"
+  additionalReading: "LEctura adicional"
+  adendum: "Addendum"
+  adendumFooter: "Addendum de"
+  id: "Documento"
+  insurance: "Seguro"
+schedule:
+  title_create: "Crear agenda"
+  date_init: "Fecha de inicio"
+  date_end: "Fecha de finalización"
+  hour_init: "Hora de inicio"
+  hour_end: "Fecha de finalización"
+  name: "Nombre"
+  user_assign: "Usuario"
+  save_schedule: "Guardar"
+  modalities: "Modalidades"
+  rooms: "Salas"
+  days: "Días"
+  status: "Estado"
+  duration: "Duración"
+  select_modalities: "Seleccionar modalidad"
+  select_rooms: "Seleccionar sala"
+  enabled: "Habilitado"
+  disabled: "Desahibiltado"
+  enable: "Habilitado"
+  disable: "Deshabilitado"
+  select_days: "Días seleccionados"
+  save_msj: "Guardado con éxito"
+  update_msj: "Actualizado con éxito"
+  assign_user: "Asignar usuario"
+  edit_assign_user: "Actualizar usuario asignado"
+  assign_locked: "Bloquear asignación"
+  create_new_schedule: "Crear nueva agenda"
+  error_msj: "Error al actualizar"
+  title_data: "Parametrización de agenda"
+  no_locks: "No hay bloqueos para esta agenda"
+  create_locks: "Crear bloqueos"
+  save_locks: "Guardar"
+  locks_reasons: "Motivo de bloqueo"
+  select_reasons: "Seleccionar motivo"
+  select_schedule: "Seleccionar agenda"
+  date_find_schedule: "Fecha de búsqueda en la agenda"
+  Reservation_form: "Formulario de reserva"
+  availability: "Disponibilidad"
+  personal_data: "Información personal"
+  namePatient: "Nombre"
+  lastNamePatient: "Apellido"
+  next: "Siguiente"
+  previous: "Anterior"
+  tag_checkSchedule: "Consultar la agenda"
+  tag_dataPatient: "Datos"
+  tag_dataClinicaStudy: "Datos clínicos"
+  tag_findSpace: "Buscar espacio"
+  tag_send: "Enviar"
+  tag_appointmentSchedule: "Citas"
+  give_dating: "Crear una cita"
+  view_dating: "Ver agenda"
+  reservationForm.presential: "Presencial"
+  reservationForm.telephone: "Telefónico"
+  availabilityForm.entity: "Entidad"
+  availabilityForm.patient: "Paciente"
+  comments: "Comentarios"
+  addComments: "Agregar comentarios"
+  cancel: "Cancelar"
+  date_datting: "Fecha de la cita"
+  msjRoomRequired: "Sala"
+  msjRoomD: "Hay un bloqueo para este día"
+  receiveAppointment: "Recibir cita"
+  it_already_exists: "Ya existe una agenda con el mismo nombre"
+  locks: "Bloqueos"
+  select_user: "Seleccionar usuario"
+  verify_hours: "Verificar la hora de finalización"
+  verify_hours_data: "Verificar el rango de horas y fechas"
+  select_range: "Seleccionar el rango de horas"
+  no_assing: "Ya existen usuarios asignados"
+  date_lock: "Bloquear fecha"
+  user_assigned: "Usuarios asignados"
+  template: "Plantillas"
+  select_templates: "Seleccionar plantilla"
+  verify_days: "Verificar el rango de fechas"
+  date_error: "Error en la cita"
+  hour_init_error: "Error en la hora de inicio"
+  hour_end_error: "Error en la hora de finalización"
+  reasons_error: "Error en motivos"
+  edit_schedule: "Editar agenda"
+  edit: "Editar"
+  delete: "Eliminar"
+  delete_schedule: "ELiminar agenda"
+  update_schedule: "Actualizar"
+  confirm_msj: "¿Está seguro de actualizar la información?"
+  confirm_remove_msj: "¿Está seguro de eliminar la agenda?"
+  remove_msj: "Eliminado con éxito"
+  remove_error: "Error en la eliminación"
+  update_appointment: "Las citas fueron modificadas en esta agenda"
+  locks_range: "Asignar bloqueo por rangos"
+  appointment_cancel: "Cancelar cita"
+  appointment_confirm: "Confirmar cita"
+  appointment_edit: "Editar cita"
+  appointment_close: "Cerrar"
+  medical_assigned: "Médico / Tecnólogo"
+  date_assigned: "Fecha asignada"
+  hour_assigned: "Fecha de inicio"
+  receipt: "Recepción de citas"
+  selectAusentDate: "Seleccione las fechas de ausencia"
+  UserSchedule: "Agenda del usuario"
+  userWhoSchedule: "Agendado por"
+  oneSpace: "La cita actual debe tener al menos un espacio"
+  schedulrw: "Revisión de la agenda"
+  alert_advertencia: "¡Advertencia!"
+  alert_info: "Todos los campos deben ser completados"
+  alert_infoTime: "La hora de inicio debe ser mayor que la hora de finalización"
+room:
+  label: "Sala"
+  room: "Sala"
+  locks: "Bloqueos por salas"
+  modality: "Modalidades"
+  headquarter: "Sedes"
+  prefix: "Prefijos"
+  locksGrid: "Bloqueos"
+  locksHoliday: "Bloqueos por día y/o festivos"
+  msj: "Seleccione al menos una sala"
+  noHolidays: "No existen días festivos"
+  saveHolidays: "Guardar día festivo"
+  dateHoliday: "Fecha día festivo"
+  Holidays: "Días festivos"
+  dateRequired: "Fecha requerida"
+  blockedDays: "Días bloqueados"
+  noBlockedDays: "No hay días bloqueados"
+  dateLocks: "Fecha día bloqueado"
+  saveLocks: "Guardar bloqueos"
+  saveSpecialLock: "Guardar otra reserva" #14-05-2018, Aqui voy#
+  dayblocked: "Reservado"
+  dayHoliday: "Vacaciones"
+days:
+  monday: "Lunes"
+  tuesday: "Martes"
+  wednesday: "Miércoles"
+  thursday: "Jueves"
+  friday: "Viernes"
+  saturday: "Sábado"
+  sunday: "Domingo"
+  label:
+    su: 'Do'
+    mo: 'Lu'
+    tu: 'Ma'
+    we: 'Mi'
+    th: 'Ju'
+    fr: 'Vi'
+    sa: 'Sa'
+month:
+  january: "Enero"
+  february: "Febrero"
+  march: "Marzo"
+  april: "Abril"
+  may: "Mayo"
+  june: "Junio"
+  july: "Julio"
+  august: "Agosto"
+  september: "Septiembre"
+  october: "Octubre"
+  november: "Noviembre"
+  december: "Diciembre"
+alert:
+  error_data: "Falta información"
+Link:
+  url: "Ingresar matriz"
+indicador_estudiosXmodalidad:
+  menu: "Reportes de estudios por modalidad"
+  name: "Estudios por modalidad"
+#Inicio bloque de nuevas traducciones #
+button:
+  search: "Buscar"
+  save: "Guardar"
+  select: "Seleccionar"
+  edit: "Editar"
+  update: "Actualizar"
+  export: "Exportar"
+  deliver: "Entregar"
+  delete: "Limpiar"
+  close: "Cerrar"
+  blocked: "Bloquear"
+  send: "Enviar"
+  cancel: "Cancelar"
+  eliminar: "Eliminar"
+  activo: "Activo"
+  acept: "Aceptar"
+  create: "Crear"
+  print: "Imprimir"
+  new: "Nuevo"
+  sticker: "Sticker"
+  burn: "Quemar"
+  saveReturn: "Guardar y devolver"
+  plantilla: "Cargar plantilla"
+  validation: "Enviar a validación"
+  changelogs: "Historial de cambios"
+  continue: "Continuar"
+  secondOpinion: "Segunda opinión"
+  saveChanges: "Guardar cambios"
+  clearWorklist: "Reiniciar lista"
+  saveValidate: "Firmar y guardar"
+  printReport: "Imprimir reporte"
+  deliverReport: "Entregar reporte"
+  clean: "Limpiar"
+  closeRegistration: "Cerrar registro"
+  confirmAppointment: "Confirmar cita"
+  modifyAppointment: "Modificar cita"
+  moveAppointment: "Mover cita"
+  cancelAppointment: "Cancelar cita"
+labels:
+  back: "Regresar"
+  requireditems: 'Insumos necesarios'
+  list: "Lista"
+  comentarios_fact: "Comentarios factura"
+  total: "Cantidad"
+  entregas: "Entregas"
+  deliveryPreference: "Preferencia de entrega"
+  sending: "Enviando"
+  all: "Todo"
+  allM: "Todo"
+  allF: "Todo"
+  none: "Ninguno"
+  add: "Agregar"
+  numberOf: "Número de"
+  numero: "Número"
+  numerador: "Numerador"
+  denominador: "Denominador"
+  oportunidad: "Oportunidad"
+  oportunidadG: "Oportunidad global"
+  min: "Mínimo"
+  max: "Máximo"
+  see: "Ver"
+  yes: "Sí"
+  no: "No"
+  and: " y "
+  rooms: "Salas"
+  room: "Sala"
+  referringDoctor: "Médico remitente"
+  name: "Nombre"
+  template: "Plantilla"
+  studydata: "Datos del estudio"
+  realized: "Realizado por"
+  generated: "Generado por"
+  numReg: "Número de registro"
+  specialist: "Médico 3"
+  specialty: "Especialidad"
+  especialidad: "Especialidad"
+  consultarBloqueos: "Consultar bloqueos"
+  preview: "Vista previa"
+  unidad: "Unidad"
+  missingValidate: "Agregar a pendientes de lectura"
+  autoOpenViewer: "Abrir automáticamente el visor"
+  theme: "Tema"
+  dark: "Oscuro"
+  light: "Claro"
+  records: "Grabaciones"
+  recordsNumberPage: "Registros por página"
+  manteinFilter: "Conservar filtros"
+  date:
+    normal: "Fecha"
+    dateIni: "Fecha de inicio"
+    dateEnd: "Fecha de finalización"
+    deliveryDate: "Fecha/hora de entrega"
+    arrivalDate: "Fecha/hora de llegada"
+    days: "días"
+    day: "día"
+    blockadeDay: "Día bloqueado"
+    holiday: "Vacaciones"
+    years: "años"
+    month: "meses"
+    date_lock: "Fecha del bloqueo"
+    fechaSolicitud: "Fecha/hora de la cita"
+    fechaDeseadaCita: "Fecha deseada de la cita"
+    fechaCita: "Fecha de la cita"
+    fechaValidacion: "Fecha de validación"
+    fechaAsignada: "Fecha asignada"
+    fechaRealizacion: "Fecha de realización"
+    fechaAsignacion: "Fecha de asignación"
+    fechaRecepcion: "Fecha de recepción"
+    fechaHoraIni: "Fecha/hora de inicio del estudio"
+    fechaHoraFin: "Fecha/hora de finalización del estudio"
+    fechaHoraTrans: "Fecha/hora de la transcripción"
+    fechaTranscripcion: "Fecha/hora de la transcripción"
+    fechaDictado: "Fecha/hora del dictado"
+    fechaToma: "Fecha/hora de la toma"
+    fechaLectura: "Fecha/hora de lectura"
+    entreDias: "Entre los días: "
+    referralDate: "Fecha de remisión"
+  days:
+    monday: "Lunes"
+    tuesday: "Martes"
+    wednesday: "Miércoles"
+    thursday: "Jueves"
+    friday: "Viernes"
+    saturday: "Sábado"
+    sunday: "Domingo"
+    label:
+      su: 'Do'
+      mo: 'Lu'
+      tu: 'Ma'
+      we: 'Mi'
+      th: 'Ju'
+      fr: 'Vi'
+      sa: 'Sa'
+  month:
+    month: "Mes"
+    january: "Enero"
+    february: "Febrero"
+    march: "Marzo"
+    april: "Abril"
+    may: "MAY"
+    june: "Junio"
+    july: "Julio"
+    august: "Agosto"
+    september: "Septiembre"
+    october: "Octubre"
+    november: "Noviembre"
+    december: "Diciembre"
+    jan: "ENE"
+    feb: "FEB"
+    mar: "MAR"
+    apr: "ABR"
+    jun: "JUN"
+    jul: "JUL"
+    aug: "AGO"
+    sep: "SEP"
+    oct: "OCT"
+    nov: "NOV"
+    dec: "DIC"
+  time:
+    normal: "Hora"
+    plural: "Horas"
+    hourIni: "Hora de inicio"
+    hourEnd: "Hora de finalización"
+    hourCita: "Hora de la cita"
+    deliveryTime: "Tiempo de entrega"
+    arrivalTime: "Tiempo de llegada"
+    horaValidacion: "Tiempo de validación"
+    horaTranscripcion: "Tiempo de transcripción"
+    horaDictado: "Hora del dictado"
+    horaLectura: "Hora de la lectura"
+    horaToma: "Hora de la toma"
+    minutes: "Minutos"
+    seconds: "Segundos"
+    duration: "Duración"
+    timeRange: "Rango de tiempo"
+    promedioEspera: "Tiempo medio de espera antes de cada paso"
+    promedioEn: "Tiempo promedio en "
+    promedio: "Tiempo promedio"
+    timeWait: "Tiempo de espera"
+    timeWaitMin: "Tiempo medio de espera en minutos"
+    of: "De"
+    the: "el/la"
+    to: "Para"
+  documentType: "Tipo de documento"
+  IdNumber: "Número de documento"
+  documRecepciona: "Documento recepcionista"
+  documTecnologo: "Documento tecnólogo"
+  documRadiologo: "Documento radiólogo"
+  documTranscriptor: "Documento transcriptor"
+  docMedicoValida: "Documento médico que valida"
+  docUsuarioEntrega: "Documento usuario entrega"
+  evidenceDocument: "Documento de evidencia"
+  uploadED: "Cargar documento de evidencia"
+  evidence: "Evidencia"
+  edType: "Tipo de evidencia"
+  edType1: "Orden"
+  edType2: "Hojas de trabajo"
+  edType3: "Reporte de patología"
+  edType4: "Reporte de laboratorio"
+  edType5: "Reportes de radiología previos"
+  edType6: "Otra información clínica"
+  edType7: "Descripción del documento"
+  edType8: "Medicare"
+  document:
+    report: "Reporte"
+    doc: "Documento"
+    orden: "Orden médica"
+  action:
+    label: "Acción"
+    validate: "Validar"
+    validacion: "Validación"
+    validarReporte: "Validar/Firmar reporte"
+    concordar: "concordancia"
+    asignar: "Asignar"
+    verificar: "Verificar"
+    verificarDatos: "Verificar datos"
+    ausentar: "Ausentar"
+    crear: "Crear"
+    modificar: "Modificar"
+    modificandoCita: "Cambiar cita"
+    confirmar: "Confirmar"
+    verImagenes: "Ver imágenes"
+    actualizarOrden: "Actualizar orden"
+    orden: "Orden"
+    subirOrden: "Cargar orden"
+    loadEvidence: "Cargar evidencia"
+    enviarEstudio: "Enviar a flujo de imágenes"
+    trreport: "Transcribir un reporte:"
+    asignadaPor: "Asignada por"
+    recepcionPor: "Recepcionado por"
+    entregasUsuario: "Entegas por usuario"
+    sobrescribir: "Sobreescribir"
+    limpiarFiltro: "Limpiar filtro"
+    changeStudy: "CAMBIARESTUDIO"
+    cancelExam: "CANCELARESTUDIO"
+    changeStatus: "CAMBIARESTADO"
+    recoverCanceled: "RECUPERACIÓNCANCELADA"
+    deliveryResults: "ENTREGARRESULTADOS"
+    sendSms: "ENVIARSMSPERSONAL"
+    pendingRegistration: "Pendiente de registro"
+  patient:
+    medicareRecordNum: "Historia clínica"
+    mrn: "Historia clínica"
+    medicareNumber: "Número de registro médico"
+    claiming: "Tipo de solicitud"
+    claimingNumber: "Número de solicitud"
+    title: "Título"
+    patient: "Paciente"
+    plural: "Pacientes"
+    patientName: "Nombres completos"
+    patientLastName: "Apellidos completos"
+    patientData: "Datos del paciente"
+    total: "Cantidad de pacientes"
+    sex: "Sexo"
+    male: "Hombre"
+    female: "Mujer"
+    birthDate: "Fecha de nacimiento"
+    tel: "Teléfono"
+    cel: "Celular"
+    fax: "Fax"
+    price: "Precio"
+    address: "Dirección"
+    address1: "Dirección 1"
+    address2: "Dirección 2"
+    addressopt: "Dirección opcional"
+    email: "Correo electrónico"
+    age: "Edad"
+    ageType: "Tipo edad"
+    firstName: "Primer nombre"
+    secondName: "Segundo nombre"
+    lastName: "Primer apellido"
+    secondLastName: "Segundo apellido"
+    weight: "Peso"
+    body:
+      part: "Parte del cuerpo"
+      body1: "Cuerpo"
+      neuro: "Neuro"
+      mamo: "Mamo"
+    guardian: "Nombre subrogado"
+    details: "Detalles del paciente"
+    clinicalData: "Información clínica"
+    radiationDose: "Dosis de radiación"
+    infoClinica: "Información clínica"
+    bringsClinicalData: "El paciente proporciona información/datos clínicos"
+    orden: "Orden médica"
+    nuevaOrden: "Por favor, seleccione un archivo si desea modificar la orden de pedido actual "
+    newConsent: "Por favor, seleccione un archivo si desea cargar un nuevo consentimiento informado"
+    update_select_patient: "Seleccionar / Actualizar Paciente"
+    flia:
+      abuela: "Abuela"
+      madre: "Madre"
+      hermana: "Hermana"
+      hijas: "Hijas"
+      tias: "Tías"
+      primas: "Primas"
+  resendReport: "Reenviar reporte"
+  editReport: "Editar reporte"
+  departament: "Departamento" #Advance traducciones #
+  municipio: "Municipio"
+  munProcede: "Municipio de procedencia"
+  munPaciente: "Municipio de procedencia del paciente"
+  top5mun: "Top 5 municipios de procedencia pacientes"
+  entity: "Empresa"
+  details: "Detalles"
+  concordar: "Concordar"
+  description: "Descripción"
+  observaciones: "Observaciones"
+  justificacion: "Justificar"
+  consultationReason: "Motivo de consulta"
+  snaps: "Cantidad de disparos"
+  numberPlates: "Cantidad de placas"
+  goodPlates: "Cantidad de placas buenas"
+  badPlates: "Cantidad de placas malas"
+  totalPlates: "Total de placas"
+  totalgoodPlates: "Placas buenas"
+  totalbadPlates: "Placas malas"
+  placasUsuario: "Placas por tecnólogo"
+  placasModalidad: "Placas por modalidad"
+  numSeries: 'Series en el estudio: '
+  sizePlates: "Tamaño de las placas"
+  porTamano: "Placas por tamaño"
+  portable: "Portable"
+  portatil: "Portátil"
+  OverExposure: "Sobreexposición"
+  overexposureReason: "Motivos de sobreexposición"
+  kv: "kV"
+  ma: "mA"
+  mas: "mAs"
+  mGy: "mGy Dosis"
+  mGyAGD: "mGy AGD Dosis"
+  ctdi: "CTDI vol *"
+  qRadio: "Q radiofármaco"
+  imgCine: "Cine"
+  imgFluoro: "Imagen de fluoroscopia"
+  dosisAcum: "Dosis acumulada"
+  dosis: "Dosis"
+  tiempoFlu: "Tiempo fluoroscopía"
+  study: "Estudios"
+  origin: "Procedencia"
+  priority: "Prioridad"
+  high: "Alto"
+  medium: "Medio"
+  low: "Bajo"
+  convenio: "Convenio"
+  reserva:
+    titulo: "Forma de reserva"
+    presencial: "Presencial"
+    telefonica: "Telefónica"
+  Headquarter:
+    singular: "Sede"
+    plural: "Sedes"
+    prefix: "Prefijo"
+    dont_site: "No hay sedes asociadas al usuario  de la EHR"
+  deliveredto: "Entregado a"
+  deliveredBy: "Entregado por"
+  deliveryDetail: "Detalles"
+  whoReceives: "Nombre de quién recibe" #Revisar#
+  comments: "Comentarios"
+  commentsitems: "Comentarios de los insumos"
+  noComments: "Sin comentarios"
+  signature:
+    normal: "Firma"
+    digital: "Firma digital"
+  selectDeliveredto:
+    label: "Paciente"
+    label1: "Subrogado" #Revisar#
+    label2: "Otro"
+  untimeliness: "Tiempo de espera" #Revisar#
+  episody: "Episodio" #Revisar#
+  ResultBiopsy: "Resultado de la biopsia"
+  biopsy: "Biopsia"
+  role:
+    technologist: "Tecnólogo"
+    tecnologos: "Tecnólogos"
+    professional: "Profesional"
+    medico: "Médico / Tecnólogo"
+    medicoTurno: "Médico de turno"
+    radiologos: "Radiólogos"
+    radiologo: "Radiólogo"
+    usuario: "Usuario"
+    doctor_referring: "Médico remitente"
+    doctor_specialist: "Médico especialista"
+    docRefCopy: "Copiar a"
+    lector: "Lector"
+    transcriptor: "Transcriptor"
+    medicoSolicitante: "Médico remitente"
+    code: "Código"
+    title: "Título"
+    practiceName: "Empresa"
+    providerNum: "Identificación"
+    userWhoCancel: "Usuario (que canceló el estudio)"
+  modificationDate: "Fecha de modificación"
+  Procedure: "Procedimiento"
+  print: "Imprimir"
+  read: "Leer"
+  professional: "Profesional"
+  listenRecord: "Escuchar grabación"
+  studyRecording: "Guardar grabación de audio"
+  record: "Audio"
+  clickhere: "Click aquí"
+  priorityReceive: "Atención inmediata" #Revisar#
+  transcription: "Transcriptor"
+  reading: "Lectura"
+  validation: "Validación"
+  technologist: "Tecnólogo:"
+  responsable: "Responsable" #Revisar#
+  locationData: "Contacto"
+  personData: "Información personal"
+  selectAppointment: "Seleccionar fecha"
+  citaAsignada: "Cita asignada" #Revisar#
+  citaAsignadaOk: "Cita asignada correctamente"
+  citaFacility: "Fecha establecida por la sede"
+  citaSede: "Sede"
+  horaCita: "Hora de la cita"
+  sinCita: "No hay citas disponibles para el paciente."
+  notRegistered: "No hay información disponible"
+  numberStudiesReading: "Estudios en lectura" #Revisar PPS y MPPS#
+  appointment:
+    singular: "Fecha" #Revisar PPS y MPPS#
+    plural: "Fechas"
+    receipt: "Fecha de registro"
+    receiptOk: "Registrado exitosamente"
+    noConfirm: "No es posible confirmar citas a horas o fechas pasadas."
+    codigoAut_contrato: "Este estudio ya se realizó con este código de autorización"
+    futureApp: "Esta cita está programada para los próximos días"
+    pastApp: "Esta cita estaba programada para días pasados"
+  return:
+    label: "Devolver"
+    toTranscription: "Devolver a transcripción"
+    toAssistive: "Devolver a recepción"
+    toReading: "Devolver a lectura"
+    toActualization: "Devolver a QA"
+    actual: "Actualizar información (recepción):"
+    toDelivery: "Firmar / Validar"
+    toDeliveryPrint: "Firmar / Validar e imprimir "
+  viewers:
+    title: "Ver imagen"
+    webViewer: "Visor web"
+    osirix: "OsiriX / Horos"
+    xen: "Visor Web"
+    weasis: "Visor Java"
+    alma: "Visor Aquila"
+    QA: "Calidad de la imagen"
+    QAcontrast: "Calidad contraste"
+    vitrea: "Visor Vitrea"
+    viewReport: "Ver reporte"
+    review: "Revisar"
+    mobile: "Visor móvil"
+    medDream: "Med Dream"
+  status:
+    normal: "Estado"
+    Original: "Estado original"
+    UpdatePending: "Pendiente Asistencial"
+    ReadingPending: "Pendiente de lectura"
+    TranscriptionPending: "Pendiente de transcripción"
+    ValidationPending: "Pendiente de validación"
+    asignada: "Asignada"
+    asignadas: "Asignada"
+    asignacion: "Asignación"
+    asignaciones: "Asignaciones"
+    cancelada: "Cancelada"
+    canceladas: "Canceladas"
+    cancelacion: "Cancelación"
+    confirmada: "Confirmada"
+    confirmadas: "Confirmadas"
+    confirmacion: "Confirmación"
+    confirmaciones: "Confirmación"
+    modificada: "Modificada"
+    modificadas: "Modificadas"
+    modificacion: "Modificación"
+    modificaciones: "Modificaciones"
+    arribado: "Arribado"
+    entregado: "Entregado"
+    validado: "Validado"
+    registrado: "Registrado"
+    descripEstado: "Descripción del estado"
+  results: "Reportes"
+  lecturas:
+    singular: "Reporte"
+    plural: "Reportes"
+    porModalidad: "Lectura por modalidad"
+    porMedico: "Lectura por médico"
+    total: "Total Reportes de  "
+    totalvalidadas: "Total Reportes validados"
+    aditionalReading: "Agregar reporte"
+    noAditionalReading: "No hay reportes adicionales"
+    metodo: "Método de lectura"
+    grabadora: "Grabadora"
+    transDirecta: "Transcripción directa"
+    recVoz: "RV"
+  numPacientes: "Pacientes por estado"
+  totalAgendados: "Total de estudios agendados"
+  totalEstAtendidos: "Total de estudios validados"
+  porEstado: "por estado"
+  comparador:
+    mayor: "Mayor que"
+  bloqueos: "Bloqueos"
+  bloqueo: "Bloqueo"
+  bloqueoRango: "Bloqueo por rango"
+  fechaBloqueo: "Fecha de bloqueo"
+  motivoBloqueo: "Motivo de bloqueo"
+  SpecialLock: "Bloqueo especial"
+  rangoHoraFec: "Rango de horas y fechas"
+  rangoFec: "Rango de fechas"
+  usuariosAsignados: "Usuario asignado"
+  medicoAsignado: "Médico asignado"
+  showAssignedStudies: "Compartir estudios asignados"
+  dataTable:
+    search: "Buscar:"
+    lengthMenu: "Ver _MENU_ resultados por página"
+    info: "Resultados desde _START_ hasta _END_ de _TOTAL_"
+    infoFiltered: "(Filtrado de un total de _MAX_ resultados)"
+    InfoEmpty: "Mostrar 0 resultados de 0"
+    loadingRecords: "Cargando"
+    zeroRecords: "No hay resultados"
+    emptyTable: "Tabla vacía"
+    paginate:
+      first: "Primero"
+      previous: "Anteriores"
+      next: "Siguiente"
+      last: "Último"
+  codigoColor: "Código de color"
+  disponible: "Disponible"
+  select_multi: "Seleccionar varios espacios"
+  set_appointment: "Asignar cita"
+  modify_app: "Modificar cita"
+  bloqueoSala: "Bloqueo por sala"
+  son_of: "Hijo/hija de"
+  GS_RH: "BT / RH" #Revisar#
+  residential:
+    zone: "Zona residencial" #Revisar#
+    urban: "Urbana" #Revisar#
+    rural: "Rural" #Revisar#
+  SMS:
+    titulo: "Notificaciones SMS"
+    smsType: "Tipo de notificación"
+    smsType2: "Tipo de notificación SMS"
+    personalSMS: "Enviar SMS personalizado"
+  indication: "Indicaciones" #Revisar#
+  contraIndication: "Contraindicaciones" #revisar#
+  preparation: "Preparaciones"
+  consentimientos: "Consentimientos"
+  consentimientoInfo: "Consentimientos informados"
+  appointmentSchedule: "Cita programada"
+  dataPatient: "Información del paciente"
+  folio: "Folio"
+  consecutive: "Consecutivo"
+  filtroCIE10: "Filtrar CIE10"
+  firmaMedico: "Firma médico"
+  regMedico: "Registro médico"
+  noAutorizo: "Autorización #"
+  codTecno: "Código del tecnólogo"
+  TIEHR: "Código del EHR" #revisar#
+  RHEHR: "RH del EHR" #revisar#
+  originEHR: "Origen del EHR"
+  estudiosEHR: "Estudios del EHR"
+  devoluciones: "Devoluciones"
+  noDevoluciones: "Sin devoluciones"
+  totalDevoluciones: "Total devoluciones"
+  usuarioDevolucion: "Usuario (Devolución)"
+  devProcesos: "Devoluciones por proceso"
+  devUsuario: "Devoluciones por usuario"
+  consultarDev: "Devoluciones por fechas: "
+  devEstudios: "Devoluciones por estudios"
+  devModalidad: "Devoluciones por modalidad"
+  trazabilidadDev: "Trazabilidad devoluciones"
+  updateData: "Actualizar datos" #Revisar#
+  proceso: "Proceso"
+  reasons_return: "Motivos de devolución"
+  comentTec: "Comentarios del tecnólogo"
+  comentRad: "Comentarios del radiólogo"
+  comentTra: "Comentarios del transcriptor"
+  devolutionError: "Por favor, indique los detalles de la devolución"
+  actualizaReg: "Actualizar registro"
+  QuantityPreviousStudies: "Estudios previos"
+  compresion: "compresión lb"
+  number_procedure: "Procedimientos"
+  revImagenes: "Revisar imágenes"
+  actImgOk: "Imágenes actualizadas con éxito"
+  updateImages: "Actualizar imágenes"
+  noImg: "No hay imágenes asociadas"
+  left: "Izquierda"
+  right: "Derecha"
+  antecedentes: "Antecedentes" #revisar#
+  others: "Otros"
+  otro: "Otro"
+  especifique: "Detlles"
+  embarazos:
+    label: "Embarazo"
+    edad: "Edad de la Madre al Nacimiento del Primer Hijo" #Revisar#
+    lactancia: "Lactancia"
+    tiempo: "Tiempo de lactancia"
+  actRecibe:
+    label: "Actualmente recibe"
+    tamoxifeno: "Tamoxifeno"
+    aromasin: "Aromasin"
+    femara: "Femara"
+  medicamentos:
+    label: "Medicina"
+    oral: "Oral"
+    parche: "parche"
+  mammo:
+    encuesta: "Encuesta mamografía"
+    biopAspira: "Biopsia"
+    cirugias: "Cirugías mamarias"
+    mastectomia: "Mastectomía" #Revisar#
+    marcas: "Signos, masas, cicatrices, lunares" #Revisar#
+    cambioImplante: "Cambio de implantes"
+    descrProblema: "Descripción del problema"
+    control: "Control"
+    sensibilidad: "Sensibilidad"
+    dolor: "Dolor"
+    secrecion: "Secreción del pezón"
+    pezonInvertido: "Pezón invertido"
+    nodulos: "Nódulos"
+    infeccion: "Infección"
+    trauma: "Trauma"
+    EHRtoMenstrual: "Historia del ciclo menstrual"
+    menarquia: "Menarquia"
+    menopausia: "Menopausia"
+    ultimoPeriodo: "Última menstruación"
+    EHRterectomia: "Histerectomía"
+    ooforectomia: "Ooforectomía"
+    terapiaHormonal: "Terapia hormonal"
+    previas: "Exámenes previos"
+    USprevias: "US previos"
+    diagCancer: "¿Diagnóstico de cáncer? "
+    organo: "Órgano"
+    cirugiaSeno: "¿Cirugías previas? "
+    marcaAxila: "¿Marcas axilares?"
+    ciclos: "Cicles"
+    reportados: "Reportados"
+    radio: "Radioterapia"
+    quimio: "Quimioterapia"
+    cancerSenoFlia: "Antecedentes familiares de cáncer de mama"
+    histoMenstrual: "Historial menstrual"
+    histerectomia: "Histerectomía"
+    tecnica:
+      label: "Técnica"
+      craneo: "Cráneo caudal"
+      Oblicua: "Mediolateral Oblicuo"
+  accesion_number: 'Número de acceso'
+  consultNumber: 'Consulta número'
+  preguardado:
+    label: "Preguardado"
+    action: "Pre-guardado"
+    saveTrans: "Pre-guardar transcripción"
+    reservedBy: "Reservado por"
+  birads: "BIRADS"
+  valueBirads: "valor BIRADS"
+  updateBIRADS: "actualizar BIRADS"
+  autovalidated: "Autovalidado"
+  datosPET: "Información adicional PET"
+  categorias:
+    oncologia: "Oncología"
+    neuroPsiq: "Neuro-Psiquiatría"
+    cardio: "Cardiología"
+    infectologia: "Infectología / Reumatología"
+  mail:
+    hi: "Saludos cordiales,"
+    welcome: "Bienvenido"
+    user: "Usuario"
+    email: "Correo electrónico"
+    password: "Contraseña"
+    hi2: "Estimado: %firstName% %lastName%"
+    message:
+      link: "Sus resultados están disponibles, por favor haga clic aquí para acceder a su registro."
+      credentials: "Sus credenciales:"
+      #intro: "Nos permitimos informarle que el estudio %study% ya se encuentra validado."
+      intro: "%entity%, su %study% realizado por %date% en la sede %headquarter% está disponible."
+      help: "Para mayor información, comuníquese con el servicio de soporte informático de su zona o envíenos un correo electrónico a %entEmail%."
+      createUser:
+        message: "Gracias por utilizar Aquila. Bienvenido a una nueva forma de hacer radiología."
+        credentials: "Sus credenciales son:"
+        link: "Para acceder a Aquila, haga clic en el siguiente enlace."
+        help: "¿Tiene problemas? Por favor, póngase en contacto con su representante de soporte técnico."
+  indicadores:
+    asigModalidad: "Actualizaciones por modalidad"
+    asigUsuario: "Citas asignadas por usuario"
+    menu: "Estadísticas de los reportes"
+    name: "Pendiente de lectura"
+    lectPendMedico: "Por radiólogo"
+    totalP: "Total de estudios pendientes de lectura"
+    totalLecturas: "Total lecturas"
+    totalLecturasVal: "Total validaciones"
+    detalle: "Detalles"
+    usuarioMod: "Reportes por radiólogo y estudios"
+    lecturaVsValidacion: "Lecturas vs validaciones por usuario"
+    vrVsgrabadora: "Reconocimiento de voz VS grabadora"
+    estudiosTec: "Estudios realizados por el tecnólogo"
+    estudiosRad: "Estudios realizados por el radiólogo"
+    estudiosMod: "Estudios realizados por modalidad"
+    transcripMod: "Transcripciones por modalidad"
+    estudiosTra: "Transcripciones por usuario transcriptor"
+    totalDelivered: "Total de estudios entregados durante "
+    estudiosEntre: "Reportes entregados por usuario"
+    lecturasRad: "Total de reportes por radiólogo"
+  tipoRecep:
+    tipo: "Tipo de recepción"
+    asignada: "Recepción del paciente"
+    inmediata: "Atención inmediata"
+  datosAtencion: "Atención"
+  validacionesporMedico: "Total validaciones por médico"
+  geolocalizacion: "Ubicación"
+  rips:
+    generar: "Generar RIPS"
+    descargar: "Descargar RIPS"
+    estudios: "Estudios"
+    generados: "RIPS generados"
+  camposModificados: "Campos modificados"
+  camposOriginales: "Campos originales"
+  originalStudies: "Estudios originales"
+  nochange: "No cambiar el estado"
+  changeStudy: "Cambiar el estudio"
+  selectStatus: "Seleccionar estado"
+  changeStatus: "Cambiar estado"
+  cancelStudy: "Cancelar estudio"
+  agrupaEstudios: "Agrupar"
+  selectAgrupacion: "Por favor, selecciones un estudio"
+  mismaAgrupacion: "Para agrupar estudios estos deben pertenecer al mismo paciente, tener la misma modalidad y estar en la misma sala"
+  securityTwo:
+    info: "Se le seguirán solicitando códigos cuando usted (u otra persona) intente iniciar sesión en su cuenta desde cualquier dispositivo. Con la solicitud recibirá los códigos de verificación de la aplicación Google Authenticator."
+    title: "Configurar Google Authenticator"
+    steep_1: "Instalar Google Authenticator"
+    steep_2: "En su teléfono móvil, busque Google Authenticator."
+    steep_2a: "Descargue e instale la aplicación."
+    steep_3: "Ahora abra y configure Google Authenticator. En Google Authenticator, vaya al menú y seleccione: 'Configurar cuenta'."
+    steep_4: "Seleccione 'Escanear un código de barras'.'"
+    steep_5: "Utilice la cámara de su teléfono móvil para escanear la imagen."
+    info_title: "AUTENTICACIÓN"
+    continue: "CONTINUAR"
+    deactivate: "DESACTIVAR"
+    activate: "ACTIVAR"
+    cancel: "CANCELAR"
+    back: "VOLVER"
+    info_label: "Ingrese el código de verificación de 2 pasos"
+    index_title: "El inicio de sesión será diferente"
+    index_1: "Necesitará códigos de verificación:"
+    index_2: "Después de ingresar su contraseña, ingrese el código a través de nuestra aplicación móvil"
+    index_3: "Le pediremos el código cuando usted (o cualquier persona) intente entrar en su cuenta. "
+    about: "Acerca de"
+    confirm_cancel: "¿Desactivar la verificación en 2 pasos?"
+  request_second_opinion: "Solicitar una segunda opinión"
+  select_physician: "Seleccionar médico"
+  encuestaCT:
+    label: "Encuesta CT"
+    embarazo: "¿Embarazo?"
+    alergico: "Alergias (Contraste o medicamentos)?"
+    reaccion: "Detalles de las alergias"
+    talla: "Estatura"
+    Creatinina: "Creatinina"
+    glomerular: "TFG"
+    ultimaComida: "Última comida"
+    estAnteriores: "Estudios previos (CATSCAN, MRI, PET-CT, ULTRASONIDO, ETC..)"
+    tratamiento: "Tratamiento"
+    asma: "Asma"
+    cardiacos: "Enfermedades cardiacas"
+    intestinales: "Trastornos intestinales"
+    cuagulacion: "Trastornos de coagulación"
+    diabetes: "Diabetes"
+    renal: "Insuficiencia renal"
+    pulmonares: "Trastornos pulmonares"
+    hepaticos: "Trastornos hepáticos"
+    tomaMedicamentos: "¿Toma algún medicamento?"
+    cual: "¿Cuál?"
+    metformina: "Metformina/Glucophage"
+    ultimaVez: "¿Última toma?"
+    cirugia: "Cirugías"
+  numeroOrden: "Número de orden"
+  opcionesConfiguracion: "Opciones de configuración"
+  mostrarColumnas: "Mostrar/ocultar columnas"
+  rangoEdad: "Rango de edad"
+  autoPlay: "Reproducción automática"
+  groupStudy: "Seleccionar grupo de estudios"
+  today: "Hoy"
+  yesterday: "Ayer"
+  last7days: "Últimos 7 días"
+  last30days: "Últimos 30 días"
+  theMonth: "Mes"
+  lastMonth: "Último mes"
+  customRange: "Rango personalizado"
+  location: "Ubicación"
+  nota: "Nota"
+  ordenDemanda: "Atención inmediata"
+  ordenVisible: "Orden visible"
+  recorder:
+    recording: "Grabación"
+    noPermissions: "Micrófono compartido"
+    pause: "Pausar"
+    recordLimit: "Límite de grabación"
+    finishRecord: "Finalizar grabación"
+    record: "Grabar"
+    disabled: "Deshabilitar"
+    pauseTool: "Pausar"
+    delete: "Eliminar"
+    keepRecording: "Seguir grabando"
+    deleteRecord: "Eliminar grabación"
+    errorSaving: "Error al guardar la grabación"
+    errorDeleting: "Error al eliminar la grabación"
+    sureDelete: "¿Está seguro de eliminar la grabación?"
+  range15: "Seleccione 15 días como máximo"
+  patientLog: "Historial del paciente"
+  scheduleLog: "Historial de citas programadas"
+  registerpatient: "Recepción del paciente"
+  registerDoctorReferring: "Registro del médico remitente"
+  dicomUploader: "DICOM uploader"
+  suburb: "Barrio"
+  postCode: "Postcode"
+  notSpecified: "No especificado"
+  patientCreate: "Crear paciente"
+  encuestaMR: "Encuesta MR"
+  appointmentExam: "Nombre del estudio de la cita"
+  registrationSumary: "Resumen del registro"
+  studyLogs: "Historial de estudios"
+  emailtoShare: "Correo electrónico para compartir"
+  imagesLink: "Enlace de imágenes"
+  message: "Mensaje"
+  resource: "Recurso"
+  synchronize: "Sincronizar"
+  synchronizeStudy: "Sincronizar estudio"
+  searchPacs: "Buscar desde PACS"
+  selectStudySync: "Seleccione el estudio para sincronizar"
+  mergeImages: "Agrupar imágenes"
+  replaceImages: "Reemplazar imágenes"
+  addImages: "Agregar imágenes"
+  studyRIS: "Estudios desde RIS"
+  merge: "Agrupar"
+  absentUser: "Usuario ausente"
+  absence: "Ausencia"
+  sureDelete: "¿Está seguro de eliminar?"
+  deleteScheduleUser: "Tenga en cuenta que todo lo relacionado con este usuario será eliminado"
+  sureEdit: "¿Está seguro de editar?"
+  editScheduleUser: "Tenga en cuenta que todo lo relacionado con este usuario será modificado"
+  uploadRecordings: "Cargar grabaciones"
+  reserve: "Reserva"
+  reserved_by: "Reservado por"
+  studyNotAvailable: "Solicitud no disponible, póngase en contacto con el administrador del sistema"
+  thisMonth: "Este mes"
+  removeSlots: "Remover los espacios"
+  mainInfo: "Información principal"
+  bookingInfo: "Información de reservas"
+  technologistForm: "Formulario del tecnólogo"
+  formVariables: "Variables del formulario"
+  mammoReport:
+    title: "RESULTADOS MAMOGRÁFICOS"
+    piel: "PIEL"
+    pezon: "PEZÓN"
+    parenquima: "PARÉNQUIMA"
+    calcificaciones: "CALCIFICACIONES"
+    nodulos: "NÓDULOS"
+    impresionDiagnostica: "IMPRESIÓN DIAGNÓSTICA"
+    recomendaciones: "RECOMENDACIONES"
+dynamicSurvey:
+  title:
+    label: "Encuesta"
+    change: "Cambios"
+    view: "Ver encuesta"
+    message: "Mensaje"
+    surveyList: "Listado de encuestas"
+  columnNameTable:
+    editDate: "Editar fecha"
+    field: "Campo"
+    beforeData: "Datos anteriores"
+    afterData: "Datos nuevos"
+    whoEdited: "Quién editó"
+    surveyName: "Nombre de la encuesta"
+    state: "Estado"
+    edit: "Editar"
+    action: "Activo/Inactivo"
+    view: "Ver"
+  descriptionChange:
+    surveyName: "Nombre de la encuesta"
+    modality: "Modalidad"
+    stateSurvey: "Estado de la encuesta"
+    nameField: "Nombre del campo %nameField%"
+    descriptionField: "Descripción del campo %descriptionField%"
+    requiredField: "Campo %requiredField% obligatorio"
+    recurrentField: "Campo %recurrentField% recurrente"
+    fieldOrder: "Orden del campo %fieldOrder%"
+    minSize: "Tamaño mínimo del campo %minSize%"
+    maxSize: "Tamaño máximo del campo %maxSize%"
+    stateField: "Estado del campo %stateField%"
+    nameOption: "Opción del campo %nameOption%"
+    orderOption: "Ordenar la opción %valueAfter% del campo %fieldName%"
+    stateOption: "Opción del estado %valueAfter% del campo %fieldName%"
+    imageCanvas: "Imagen del campo %fieldName%"
+    imageState: "Estado de la imagen del campo %fieldName%"
+    colorCanvas: "Del campo %fieldName% el color"
+    colorState: "Del campo %fieldName% el estado del color"
+  stateField:
+    required: "Obligatorio"
+    noRequired: "Opcional"
+    recurrent: "Recurrente"
+    noRecurrent: "No recurrente"
+    active: "Activo"
+    inactive: "Inactivo"
+    undefine: "Indefinido"
+  messages:
+    surveyName: "La encuesta debe tener un nombre"
+    modality: "Se debe asignar una modalidad"
+    nameExist: "Por favor, cambie el nombre de la encuesta. Ya existe una encuesta con este nombre"
+    surveySave: "La encuesta se ha guardado con éxito"
+    code: "No se ha encontrado el código de la encuesta"
+    surveyState: "Estado de la encuesta actualizado con éxito"
+    codeRegister: "Uno de los códigos del campo no fue registrado"
+    surveyFields: "Los campos deben asignarse para esta encuesta"
+    optionsFiled: "Recuerde que las opciones de los selects, radios o checkboxs son obligatorias"
+    requiredFields: "Recuerde que todos los campos con * son obligatorios"
+    session: "Se ha producido un error al guardar la encuesta. Es posible que su sesión haya finalizado. Por favor, verifique"
+    processError: "Se ha producido un error al ejecutar el proceso seleccionado"
+    saveError: "Error al guardar, la encuesta no tiene campos asignados"
+    viewError: "Hubo un error al visualizar la encuesta"
+    surveyError: "La encuesta no tiene campos asignados"
+    surveyData: "No se ha encontrado la información solicitada"
+  structSurvey:
+    surveyCreate: "Crear encuesta"
+    select: "Seleccionar"
+    field: "Campo"
+    nameField: "Nombre del campo"
+    descriptionField: "Descripción del campo"
+    options: "Opciones"
+    delete: "Eliminar"
+    newOption: "Nueva opción"
+    maximum: "Máximo"
+    minimum: "Mínimo"
+    maxText: "Máximo del texto"
+    fieldType: "Tipo de campo"
+    required: "Obligatorio"
+    recurrent: "Recurrente"
+    up: "Arriba"
+    down: "Abajo"
+    save: "Guardar"
+    view: "Ver"
+    cancel: "Cancelar"
+    currentColor: "Color actual"
+    colors: "Colores"
+    draw: "Dibujar"
+    clean: "Limpiar"
+    imageStudy: "Imagen de estudio"
+    colorList: "Lista de colores"
+    surveyNew: "Crear encuesta"
+    active: "Activo"
+    inactive: "Inactivo"
+    colorsAdd: "Agregar colores"
+messages:
+  inUse:
+    transcription: "En transcripción"
+    reading: "En lectura"
+    validate: "En validación"
+    update: "En toma del estudio"
+  listen: "Haga clic aquí para escuchar"
+  saveok: "Guardado con éxito"
+  pleaseWait: "Por favor espere..."
+  inactive: "¿Está seguro de que quiere <span class='spanInactive'></span> este paciente?"
+  inactiveLog: "El usuario ha cambiado el estado del paciente personData a patStatus"
+  inactivePatient: "Este paciente está deshabilitado"
+  pleaseVerify: "Por favor, verifique los parámetros"
+  recEmpty: "El estudio no tiene grabación de audio"
+  errorDate: "No se puede cambiar la fecha hasta el final del proceso de asignación"
+  ajax:
+    room: "Por favor seleccione una sala"
+    error: "Algo salió mal, por favor inténtelo de nuevo"
+    errorProcess: "Algo salió mal, por favor inténtelo de nuevo"
+  studyDateTime: "Fecha / hora del estudio"
+  satisfactionLabel: "Califique el nivel de satisfacción (proceso global) De 1 a 10, donde 10 es la máxima calificación"
+  satisfactionLevel: "Nivel de satisfacción"
+  signatureOk: "Validación realizada"
+  processOk: "Realizado con éxito"
+  errorDocType: "Sólo se pueden cargar archivos PDF"
+  actualizadoOk: "Actualizado con éxito"
+  deleteOk: "Eliminado"
+  smsTitle: "Exportador de archivos"
+  errorMsgCompletionFields:
+    label1: " - Campo obligatorio"
+    label2: " - Por favor califique el nivel de satisfacción"
+    label3: " - Agregar detalles"
+    label4: " - La firma digital es obligatoria"
+  devolution:
+    img: "Estudio realizado correctamente"
+    def: "Problemas con las imágenes debido a movimiento de los pacientes"
+    faliure: "Tecnólogo"
+  selectAll: "Seleccione uno o más"
+  searchData: "Por favor, ingrese los criterios de búsqueda"
+  noSearchData: "No se ha encontrado ningún registro"
+  dateRange: "Por favor, ingrese un rango de fechas"
+  noData: "No se ha encontrado ningún registro"
+  noDataRange: "No se ha encontrado ningún registro"
+  noPatientToMerge: "No hay sugerencias para agrupar"
+  welcome: "Bienvenido"
+  totalEstSistema: "Cantidad de estudios registrados en el sistema"
+  totalEstCompletos: "Cantidad de estudios terminados y validados por el médico."
+  totalLectRealizadas: "Cantidad de reportes en el sistema (un estudio puede tener más de un reporte)."
+  totalImgTec: "Cantidad de estudios en el sistema realizados con éxito por el tecnólogo. Se excluyen los estudios cancelados. "
+  estadoGlobal: "Panorama general - Tiempo de espera en"
+  seguro: "¿Está seguro?"
+  seguroActualizar: "Este paciente ya existe. Los datos no se actualizarán."
+  datosEliminados: "Los datos no guardados se perderán"
+  seguroEnviar: "¿Confirmar la solicitud de validación?"
+  seguroValidarEnviar: "¿Está seguro?"
+  seguroEnviarValidar: "¿Está seguro?"
+  seguroValidar: "¿Está seguro?"
+  seguroEnviarTrans: "¿Está seguro?"
+  seguroEliminar: "¿Está seguro?"
+  seguroAdendum: "¿Está seguro?"
+  alertaCambio: "Tenga en cuenta que cualquier información relacionada con el usuario cambiará"
+  irreversible: "¡Cuidado, esta acción no se puede deshacer!"
+  rangoFecha: "Rango de fechas incorrecto"
+  horaSuperior: "La fecha de inicio debe ser anterior a la fecha final."
+  horaEntreAgenda: "Compruebe el rango de tiempo seleccionado "
+  rangoFechaSuperior: "Rango mayor a 30 días, puede tomar varios minutos"
+  rango15dias: "Rango mayor a 15 días, por favor seleccione un rango menor a 15 días"
+  unaOpcion: "Seleccione al menos una opción"
+  salaBloqueada: "La sala está reservada para esa fecha"
+  resultadosRango: "Rango de fechas:  "
+  accionAsignaciones: "Acciones en asignación de citas para el rango de fechas:"
+  accionUsuario: "Acciones de citas por usuario"
+  totalAcciones: "Total de acciones ejecutas en asignación de citas"
+  alertaMultEspacios: "la cita utiliza múltiples espacios, recuerde hacer la nueva cita utilizando múltiples espacios"
+  agenda:
+    msjEliminar: "¿Está seguro? La acción no se puede deshacer"
+    ocupada: "La agenda seleccionada no se puede editar, porque tiene citas programadas"
+    editarconCitas: "La agenda seleccionada tiene citas programadas. sólo puede aumentar los días u horas de servicio."
+    alertaEdicion: "Para poder editar, no debe contener citas."
+    conAsignaciones: "Otro usuario asignado"
+    infoAgenda: "Información sobre la agenda seleccionada"
+    selectAusentDate: "Por favor, seleccione las fechas de ausencia"
+    diasAsigna: "Por favor, seleccione las fechas para el usuario"
+    asignacionOk: "Usuario añadido con éxito"
+    userDelete: "Usuario correctamente eliminado"
+    existe: "Existe otra lista con este nombre"
+    datosAgenda: "Detalles de la agenda"
+    ExisteBloqueo: "Existe un bloqueo en el horario seleccionado"
+    NoBloqueos: "No hay bloqueos de sala ni de horario"
+    EHRtorial: "Historial de citas"
+    opciones: "Opciones de cita"
+    comentAsignacion: "Comentario de la asignación de la cita"
+    comentConfirmacion: "Comentario de confirmación"
+    noAgendaSala: "No hay agenda en la sala, seleccione una nueva sala"
+    noAgenda: "No programar la sala el día"
+    noAgendaMedico: "No hay agenda para el usuario"
+    dispMes: "Disponibilidad en "
+    paraAgenda: " para "
+    consulCitas: "Buscar cita..."
+    noPatient: "Paciente no resgistrado."
+    futureDate: "Horario de citas para otro día"
+    commentModificate: "Cita previa"
+    modification: "Historial de modificaciones"
+    historial: "Historial de citas"
+    hourStartLower: "La nueva hora de inicio debe ser menor que la original"
+    hourEndHigher: "La nueva hora de inicio debe ser mayor que la original"
+    dateStartLower: "La nueva fecha de inicio debe ser menor que la original"
+    dateEndHigher: "La nueva fecha de inicio debe ser mayor que la original"
+    specialLock: "Esta opción permite a un usuario administrador asignar citas en horas bloqueadas para otros usuarios"
+    successLock: "Bloqueo creado con éxito"
+    deleteLock: "Bloqueo eliminado con éxito"
+    appointmentAvalaible: "La próxima cita disponible para esta sede es para la fecha:"
+  buscarCitas: "Encontrar cita"
+  bloqAgendaVigente: "Bloqueos de la agenda actual"
+  citas3meses: "Historial de citas"
+  cita6meses: "No hay citas para los próximos 6 meses"
+  mismaModalidad: "No se puede cambiar la modalidad del estudio. Por favor, seleccione, SALA y MODALIDAD, de la misma sede."
+  liberarEspacios: "Existen bloqueos, ¿está seguro de que quiere liberarlos?"
+  liberandoEspacios: "Liberar bloqueos"
+  espacioReservado: "Este espacio ya se encuentra reservado, seleccione uno nuevo"
+  unEspacio: "Seleccione al menos un espacio"
+  espacioUso: "El espacio ya está reservado"
+  motivoModif: "Motivo modificación"
+  fecPasada: "No se puede procesar una cita con fecha/hora pasada"
+  horaPasada: "No es posible procesar su solicitud"
+  espConsecutivos: "Sólo se permiten espacios consecutivos"
+  errorCita: "Algo salió mal, el espacio estará disponible en un momento"
+  confCita: "Confirmar cita"
+  comentConf: "Comentario de confirmación"
+  msjConfi: "Confirmación de la cita"
+  addComent: "Agregar comentarios"
+  cancelCita: "Cancelar cita"
+  citaRecepcionada: "Cita recepcionada, no se puede cancelar"
+  noPatient: "Por favor, registre al paciente"
+  docSearch: "Por favor, ingrese el documento."
+  criterioBusqueda: "Buscar por"
+  regAsignaciones: "Detalles de asignaciones"
+  selArchivo: "Por favor, seleccione un archivo "
+  selplantilla: "Por favor, seleccione una plantilla "
+  modifOrden: "¿Está seguro de actualizar la orden?"
+  infoMamo: "Reporte mamografía"
+  filtroCie10: "Ingrese al menos 3 caracteres."
+  filCIE10: "Filtros CIE10"
+  CIE10: "CIE10"
+  noOrden: "No se cargó la orden"
+  selectAppointmentError: "Por favor, seleccione una cita"
+  selectAppointmentSuccess: "La fecha y la hora se han seleccionado correctamente."
+  otraSede: "Atención: la cita es para una sede diferente. "
+  allData: "Por favor, complete el formulario "
+  camposObligatorios: "Por favor, complete todos los campos obligatorios "
+  regAsigCitas: "Historial asignación de citas"
+  firmaRespConsent: "Firma del paciente / subrogado "
+  parentPaciente: "Parentezco"
+  noFirmaReg: "No hay firma resgistrada "
+  campoObliga: "Obligatorio"
+  no_select_patient: "Por favor, seleccione el paciente"
+  yes_select_patient: "Paciente seleccionado con éxito"
+  biradsError: "Seleccione un BIRADS válido "
+  RecordingResponseError: "Debe realizar una grabación de voz antes del envío."
+  textoValido: "Por favor, ingrese un texto válido"
+  noDescription: "Por favor, ingrese una descripción válida"
+  noTranscripcion: "No hay transcripción disponible"
+  textoMinimo: "Por favor, rellene al menos un espacio en blanco"
+  actBirads: "Por favor, actualice el BIRADS"
+  updateDataRecording: "Grabación de voz realizada con éxito"
+  mammoInfo: "Informe de mamografía no registrado. "
+  lecturaOk: "Enviado con éxito."
+  msjValidateRead: "Pre-guardado realizado. Puede añadirse otra interpretación"
+  sinPlantilla: "No hay plantillas disponibles para esta modalidad"
+  errorPass: "Usuario y/o contraseña incorrectos"
+  userValidate: "Por favor, seleccione un usuario válido"
+  validarLecturasAdicionales: "Todas las interpretaciones ad hoc deben ser validadas / firmadas."
+  enEntrega: "el estudio está pendiente de entrega."
+  totalCitasAgendadas: "Citas programadas para "
+  rangoRecepCita: "La consulta de fecha/hora es para el sello de fecha/hora de recepción (check in)"
+  graficoMes: "Gráfico del mes actual"
+  graficoTresMeses: "Gráfico de los últimos 3 meses"
+  graficoRangoFechas: "Gráfico para el rango de fechas:"
+  citaRecepcion: "Tiempo que transcurre desde la fecha/hora de la cita hasta la fecha/hora de registro (check in)"
+  recepcionAsistencial: "Tiempo que transcurre desde la fecha/hora de registro hasta la realización del estudio (IWF)"
+  asistencialLectura: "Tiempo que transcurre desde la realización del estudio (IWF) hasta la interpretación "
+  lecturaTranscripcion: "Tiempo que transcurre desde la interpretación hasta la transcripción "
+  transcripcionValidacion: "Tiempo de espera desde la transcripción hasta la validación/firma "
+  maxMin: "Rango de fechas máximo/mínimo por step"
+  numEstudiosRango: "Estudios en proceso para el rango de fechas"
+  detalleAtencionRango: "Detalle de la atención por rango de fechas"
+  modalityMessage: "* El código N/A es para una plantilla sin modalidad"
+  sobrescribir: "¿Sobreescribir?"
+  listadoCompleto: "Ver listado completo"
+  respuestaSolicitud: "Respuesta solicitud de interconsulta"
+  sinRespuesta: "Sin respuesta"
+  devolverEstudio: "¿Está seguro?"
+  noRecord: "No hay grabación de audio para el estudio."
+  saveRec: "Guardar la grabación"
+  preSaved: "Pre-guardado por %name%. ¿Está seguro de que quiere sobrescribir el espacio de trabajo actual?"
+  preSavedBy: "Pre-guardado por %name%"
+  noChangesFound: "No se encontraron cambios"
+  newPatient: "El paciente no está registrado, por favor, complete el formulario de registro"
+  sessionTimeOut: "Su sesión está a punto de expirar."
+  sessionExpired: "Sesión expirada"
+  documentReady: "Documento listo para cargar"
+  seguroPacs: "¿Está seguro?"
+  messageEditPatient: "Asegúrese de guardar los cambios antes de editar el paciente, este cambio recargará la página."
+  closeReading: "¿Está seguro de que quiere cerrar este estudio?"
+  lostChanges: "Los cambios sin guardar se perderán."
+  loadDocuments:
+    fileError: "Error"
+    fileWeightIni: "El peso del archivo es mayor que el permitido en php.ini"
+    fileWeight: "El peso del archivo es mayor que el permitido en FORM del HTML MAX_FILE_SIZE"
+    filePartialUpload: "El archivo fue cargado parcialmente."
+    fileNotUploaded: "El archivo no fue cargado."
+    fileNotExistTmp: "El archivo temporal no existe."
+    fileWriteError: "Error de escritura en el disco."
+    fileWrongExtencion: "Extensión no permitida por php.ini"
+    fileErroUpload: "El archivo no fue cargado."
+    fileExtencioPrt1: "La extensión del archivo "
+    fileExtencioPrt2: " no coincide con los permitidos por el sistema."
+    fileWeightPart1: "El peso del archivo "
+    fileWeightPart2: " es mayor que el permitido por el sistema."
+    fileErrorSaving: "Error al guardar el archivo."
+modalities:
+  modality: "Modalidad"
+  modalities: "Modalidades"
+  reception: "Recepción"
+  asistencial: "Flujo de trabajo de los reportes (RWF)"
+  adendum: "Addendum"
+  transcription: "Transcripción"
+  dictado: "Dictado"
+  validation: "Validación"
+  deliveringResults: "Entrega de reportes"
+menu:
+  admin: "Administrador"
+  schedule:
+    label: "Agenda"
+    create: "Crear agenda"
+    appointment: "Asignar cita"
+    room: "Sala"
+    confirmTxt: "Confirmación SMS"
+    viewCalendar: "Ver agenda"
+    review: "Revisar agenda"
+  ultrasoundworklist: "US"
+  findPatient: "Buscar paciente"
+  clinicalfile: "Historia clínica"
+  receiveApointment: "Recepción de citas"
+  priorityReceive: "Atención inmediata"
+  modify: " Información y actualización del estado del paciente"
+  r.schedulerules: "Parametrización de agenda"
+  workList: "Mi agenda"
+  integrationEHR: "Integración EHR"
+  integrationHis: "Integración HIS"
+  flux: "Flujo de trabajo de los reportes (RWF)"
+  reading: "Lista de trabajo del radiólogo"
+  actuali: "Lista de trabajo del tecnólogo"
+  transcrip: "Transcripción"
+  validate: "Validar"
+  adendum1: "Addendum"
+  concordancia: "Concordancia"
+  board: "Tablero"
+  indicator: "Indicadores"
+  profile: "usuarios"
+  asignaCita: "Asignación de citas"
+  recepcion: "Recepción"
+  titleReceipt: "Registro de pacientes por usuario"
+  totalR: "Recepción"
+  totalCitas: "Citas"
+  indTecnologo: "Tecnólogo"
+  IndRadiologo: "Radiólogo"
+  IndTranscripcion: "Transcriptor"
+  IndEntregas: "Reportes entregados"
+  IndOportunidad: "Tiempo de espera promedio"
+  IndOportunidadProc: "Indicador Oportunidad por Procesos"
+  rangosTiempo: "Rangos de tiempo"
+  IndAtencion: "Tiempo de espera"
+  IndLecturas: "Lecturas"
+  IndUsuarioMod: "Radiólogos y Modalidades"
+  IndLecturaVsValidacion: "Lectura vs Validacion"
+  IndvrVsgrabadora: "RV vs Grabaciones"
+  IndEstudiosXmodalidad: "Estudios por modalidad"
+  IndBirads: "BIRADS"
+  IndDevolution: "Devoluciones"
+  IndPlacas: "Placas"
+  IndGeolocalizacion: "Geolocalización"
+  speech: "SpeechAnalytics"
+  indicitas: "Trazabilidad de citas"
+  exportardatos: "Exportar datos"
+  headquarterChange: "Cambiar sede"
+  modificar: "Editar procedimiento"
+  detalleOport: "Detalle de la cita"
+  pet: "PET-CT"
+  report: "Reportes"
+  BuscarPacientesLeidos: "Mis reportes"
+  ReporteGeneral: "General"
+  ReporteRadiacion: "Sobreexposición y dosis de radiación"
+  segundaOpinion: "Interconsulta"
+  ReporteResolucion4505: "Reporte 4505 (Solo para Colombia)"
+  consultaPisos: "Consulta pisos"
+  patientCreate: "Crear paciente"
+  patient: "Paciente"
+  editPatient: "Editar Paciente"
+  takeExam: "Tomar estudio"
+  reporting: "Reportar"
+  type: "Tipo"
+  recoverCanceled: "Recuperación Cancelada"
+  faxSMSAnalytics: "Indicadores de Fax & SMS"
+PatientPortal:
+  PortalName: "Portal Paciente"
+  email: "Por favor, revise su correo electrónico."
+  sent: "Imágenes compartidas con éxito"
+  shareImages: "Compartir imágenes"
+  copyLink: "Copiar enlace"
+  linkCopied: "Enlace de imágenes copiado"
+HIS:
+  FechaGeneracion: "Fecha/hora de generación de la orden"
+  CodigoServicio: "Código de servicio"
+  TipoMedico: "Tipo de médico"
+  EstadoRis: "Estado RIS"
+  EstadoHis: "Estado HIS"
+  CodigoEstudio: "Código de estudio"
+  ContrasteEstudio: "Contraste"
+Age:
+  years: "años"
+  months: "meses"
+  days: "días"
+EHR:
+  FechaGeneracion: "Fecha/hora de generación"
+  CodigoServicio: "Código de servicio"
+  TipoMedico: "Médico"
+  EstadoRis: "Estado RIS"
+  EstadoEHR: "Estado EHR"
+  CodigoEstudio: "Código del estudio"
+  ContrasteEstudio: "Contraste"
+RawData:
+  GenerateTitle: "Generar informe de datos sin procesar"
+  GenerateReport: "Generar reporte"
+  GeneratingReport: "Generando reporte"
+  GeneratingTime: "Esto puede tomar algunos minutos"
+  EncodingWarning: "La codificación del archivo de salida es UTF-8"
+#Coviu
+coviu:
+  menu: "Video conferencia"
+  titleModal: "Iniciar una sala de reunión"
+  sessionName: "Ingrese el nombre de la sala"
+  participants: "Añadir participante"
+  sessionCreate: "Añadir una nueva sala"
+  limit: "Añadir hasta 4 participantes"
+  openSession: "Ir a la sala"
+  sessionLink: "Enlace de la sala"
+  selectMessage: "Por favor, agregue al menos un participante."
+mammoReport:
+  engrosada: "Engrosada"
+  reatraida: "Retraída"
+  cicatriz: "Cicatriz"
+  lesionDermica: "Lesión dérmica"
+  invertido: "Invertido"
+  dilatacionDuctal: "Dilatación ductal"
+  denso: "Denso"
+  mixto: "Mixto"
+  graso: "Graso"
+  asimetria: "Asimetría"
+  asimetriaFocal: "Asimetría focal"
+  distorsion: "Distorsión"
+  protesis: "Prótesis"
+  dermicas: "Dérmica"
+  vasculares: "Vascular"
+  burdas: "Burdas"
+  redondas: "Redondas"
+  puntiformes: "Puntiformes"
+  distroficas: "Distróficas"
+  esfericas: "Esféricas"
+  lecheCalcica: "Leche cálcica"
+  sutura: "Sutura"
+  linealesGruesas: "Lineales gruesas"
+  cascaraHuevo: "Cáscara de huevo"
+  amorfas: "Amorfas"
+  pleomorficas: "Pleomórficas"
+  heterogeneasBurdas: "Heterogéneas burdas"
+  finas/ramificadas: "Finas/Ramificadas"
+  cumulo: "Cúmulo"
+  multiplesCumulos: "Múltiples cúmulos"
+  regionales: "Regionales"
+  dispersas: "Dispersas"
+  distribucionLineal: "Distribución lineal"
+  redondo: "Redondo"
+  ovalado: "Ovalado"
+  lobulado: "Lobulado"
+  microlobulado: "Microlobulado"
+  irregular: "Irregular"
+  circunscrito: "Circunscrito"
+  oscurecido: "oscurecido"
+  malDefinido: "Mal ddefinido"
+  espiculado: "Espiculado"
+  altaDensidad: "Alta densidad"
+  igualDensidad: "Misma densidad"
+  bajaDensidad: "Baja densidad"
+  contenidoGraso: "Contenido graso"
+  ganglioIntramamario: "Ganglio intramamario"
+  ganglioAxilar: "Ganglio axilar"
+  multiples: "Múltiples"
+  asociadoCalcificaciones: "Asociado a calcificaciones"
+  categoria: "Categoría"
+  mensajeEstudiosAdicionales: "No es concluyente. Requiere estudios adicionales"
+  negativa: "Negativa"
+  hallazgoBenigno: "Hallazgo benigno"
+  hallazgoProbBenigno: "Hallazgo probablemente benigno"
+  hallazgoSospechoso: "Hallazgo sospechoso"
+  hallazgoAltamenteSospechoso: "Hallazgo altamente sospechoso"
+  malignidadConocida: "Malignidad conocida"
+  controlAño: "Control en un año"
+  control6meses: "Control en 6 meses"
+  trabajoMamografico: "Trabajo mamográfico"
+  compararEstPrev: "Comparar estudios previos"
+  ultrasonido: "Ultrasonido"
+  galactografia: "Galactografía"
+  otros: "Otros"
+  aspiracionCitologia: "Aspiración citológica"
+  biopsia: "Biopsia"
+  biopsiaEstereotaxica: "Biopsia estereotáxica"
+  biopsiaUltrasonido: "Biopsia por ultrasonido"
+  bxArpon: "Bx Dirigida con Arpón"
+  D: "D"
+  I: "I"
+  cerrar: "Cerrar"
+  guardar: "Guardar"
+TechnologistForm:
+  technologist_forms: "Formularios de los tecnólogos"
+  please_select: "Por favor, seleccione"
+  form_register: "Registro de formularios"
+  register_form: "Formulario de registro"
+  filter_by_modality: "Filtrar por modalidad"
+  all: "Todo"
+  modalities: "Modalidades"
+  creation_date: "Fecha de creación"
+  edition_date: "Fecha de edición"
+  studies: "Estudios"
+  back: "Volver"
+  select_modality: "Seleccionar modalidad"
+  number_columns: "Número de columnas"
+  select_studies: "Seleccionar estudios"
+  save: "Guardar"
+  update: "Actualizar"
+  form_variables: "Variables del formulario"
+  form_name: "Nombre"
+  form_min: "Mínimo"
+  form_max: "Máximo"
+  form_options: "Opciones"
+  form_quantity: "Ingrese las diferentes opciones"
+  form_status: "Estado"
+  form_type: "Tipo"
+  form_units: "Unidades"
+  form_business_indicator: "Indicador de negocio"
+  modality: "Modalidad"
+  edit_form: "Editar formulario"
+  preview_form: "Vista previa del formulario"
+  edit: "Editar"
+  cancel: "Cancelar"
+  noForms: "No hay formularios para la modalidad."
+  noVariable: "No hay variables asociadas a la modalidad, por favor vaya al módulo de variables."
+  validateStud: "Debe seleccionar al menos un estudio"
+  createdForm: "Formulario creado con éxito"
+  errCreatedForm: "Error al guardar el formulario"
+  noDeleteForm: "No se puede eliminar un formulario por defecto. Edítelo."
+  sureDeleteForm: "¿Está seguro de que quiere eliminar el formulario?"
+  deleteForm: "Formulario eliminado con éxito"
+  errDeleteForm: "Error al eliminar el formulario"
+  addField: "Añadir campo"
+  anError: "Se ha producido un error"
+  noStandard: "Debe asociar esta modalidad a una modalidad estándar"
+  default_form: "Formulario por defecto"
+editReport:
+  editReport: "Editar reporte"
+  sureEditReport: "¿Estás seguro de que quiere editar el informe?"
+  whoCanEdit: "¿Quién puede editar el reporte?"
+  radiologist: "Radiólogo tratante"
+  transcriptionist: "Transcriptor encargado"
+  radiologistAndTranscripcionist: "El radiólogo tratante y todos los transcriptores"
+  allTransAllRadInChar: "Todos los radiólogos y el transcriptor encargado"
+  allTansAllRadAndAdm: "Todos los radiólogos, todos los transcriptores y el administrador"
+  warning: "Esta opción permite la edición del reporte una vez que ha sido firmado por el radiólogo."
+  settingsEdit: "Configuración de la edición de reportes"
+  enableEdit: "Habilitar la opción de edición de reportes"
+  timeCanEdit: "Tiempo máximo de edición"
+  timeInhours: "Tiempo en horas"
+  saveSettings: "Guardar configuración"
+  sureSaveSettings: "¿Está seguro de que quiere guardar los cambios?"
+  timeMin: "El tiempo no puede ser inferior a 1 hora"
+  timeMaxMsj: "Tenga en cuenta que el tiempo de edición establecido, afectará al tiempo en el que se entrega el estudio a los médicos remitentes o a los pacientes."
+  sendReport: "¿Está seguro de que quiere enviar el reporte?"
+  editAndSend: "¿Está seguro de que desea realizar esta acción? Tenga en cuenta que una vez enviado el reporte, no puede ser editado de nuevo."
+  submitted: "El reporte ha sido editado y enviado"
+  errorEdit: "Error al editar el reporte"
+  beenEdited: "El informe ha sido editado"
+  beenSaved: "Los ajustes se han sido guardado"
+  beenUpdated: "Los ajustes se han actualizado"
+addendumSetting:
+  title: "Configuración addendum"
+  saveAddendumSettings: "Guardar la configuración del Addendum"
+  orderBy: "Ordenar addendums por fecha"
+  showFirst: "Mostrar primero"
+  report: "Reporte"
+  addendums: "Addendums"
+  sureToSave: "¿Está seguro de que quiere guardar los cambios?"
+  originalReport: "Reporte original"
+  btnCancel: "Cancelar"
+  titleMenuOption: "Editar configuración de addendum"
+label_diagnosis_code: Código de diagnóstico
+label_downloadable_files: Imprimir formularios
+label_download: Descargar
+label_file_list: Lista de archivos
+label_authorization_code: Código de autorización
+labe-_test_cualquier_cosa: Cualquer cosa
